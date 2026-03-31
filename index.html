@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picklepoll – Pickleball Availability Checker</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f0faf4;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      padding: 48px 40px 40px;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo { font-size: 48px; margin-bottom: 12px; }
+
+    h1 { font-size: 1.6rem; color: #1a4731; margin-bottom: 6px; }
+
+    .subtitle { color: #5a7a69; font-size: 0.95rem; margin-bottom: 36px; }
+
+    #check-btn {
+      background: #2e7d52;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 14px 36px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      width: 100%;
+    }
+
+    #check-btn:hover:not(:disabled) { background: #245f3f; }
+    #check-btn:active:not(:disabled) { transform: scale(0.98); }
+    #check-btn:disabled { background: #a0c4b0; cursor: not-allowed; }
+
+    #status {
+      margin-top: 28px;
+      min-height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .badge.available  { background: #d4edda; color: #155724; border: 2px solid #28a745; }
+    .badge.unavailable{ background: #f8d7da; color: #721c24; border: 2px solid #dc3545; }
+    .badge.loading    { background: #fff3cd; color: #856404; border: 2px solid #ffc107;
+                        animation: pulse 1.2s ease-in-out infinite; }
+
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+    .detail    { font-size: 0.85rem; color: #5a7a69; }
+    .error-msg { color: #c0392b; font-size: 0.88rem; }
+
+    .booking-link {
+      display: inline-block;
+      margin-top: 6px;
+      color: #2e7d52;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .booking-link:hover { text-decoration: underline; }
+
+    .last-checked { margin-top: 18px; font-size: 0.78rem; color: #a0b8aa; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">🏓</div>
+    <h1>Picklepoll</h1>
+    <p class="subtitle">Check pickleball court availability in Richmond Hill</p>
+
+    <button id="check-btn" onclick="checkAvailability()">Check Availability</button>
+
+    <div id="status"></div>
+    <div id="last-checked" class="last-checked"></div>
+  </div>
+
+  <script>
+    const BOOKING_URL =
+      'https://anc.ca.apm.activecommunities.com/richmondhill/activity/search' +
+      '?onlineSiteId=0&activity_select_param=2&open_spots=1&min_age=40' +
+      '&activity_keyword=pickleball&max_age=50&viewMode=list';
+
+    // allorigins.win is a public CORS proxy that returns { contents: "<html>..." }
+    const PROXY = 'https://api.allorigins.win/get?url=';
+
+    async function checkAvailability() {
+      const btn = document.getElementById('check-btn');
+      const status = document.getElementById('status');
+      const lastChecked = document.getElementById('last-checked');
+
+      btn.disabled = true;
+      btn.textContent = 'Checking…';
+      status.innerHTML = '<span class="badge loading">Checking…</span>';
+      lastChecked.textContent = '';
+
+      try {
+        const res = await fetch(PROXY + encodeURIComponent(BOOKING_URL));
+        if (!res.ok) throw new Error(`Proxy returned HTTP ${res.status}`);
+
+        const data = await res.json();
+        const html = data.contents || '';
+        const available = /enroll\s+now/i.test(html);
+
+        if (available) {
+          status.innerHTML = `
+            <span class="badge available">✓ Available!</span>
+            <span class="detail">Open spots found — enroll now!</span>
+            <a class="booking-link" href="${esc(BOOKING_URL)}" target="_blank" rel="noopener">
+              Open booking site →
+            </a>`;
+        } else {
+          status.innerHTML = `
+            <span class="badge unavailable">No Openings</span>
+            <span class="detail">No "Enroll Now" options found at this time.</span>
+            <a class="booking-link" href="${esc(BOOKING_URL)}" target="_blank" rel="noopener">
+              Check booking site →
+            </a>`;
+        }
+
+        lastChecked.textContent = `Last checked: ${new Date().toLocaleTimeString()}`;
+      } catch (err) {
+        status.innerHTML = `
+          <span class="badge unavailable">Error</span>
+          <span class="error-msg">${esc(err.message)}</span>`;
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Check Availability';
+      }
+    }
+
+    function esc(str) {
+      return String(str)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+  </script>
+</body>
+</html>
