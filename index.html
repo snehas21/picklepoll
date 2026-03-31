@@ -222,7 +222,26 @@
       '?onlineSiteId=0&activity_select_param=2&open_spots=1&min_age=40' +
       '&activity_keyword=pickleball&max_age=50&viewMode=list';
 
-    const PROXY_BASE = 'https://api.allorigins.win/get?url=';
+    // Each proxy has a different request/response shape:
+    //   build(url)  → full fetch URL
+    //   extract(res) → Promise<string> of the HTML body
+    const PROXIES = [
+      {
+        name: 'corsproxy.io',
+        build: url => 'https://corsproxy.io/?' + encodeURIComponent(url),
+        extract: res => res.text(),
+      },
+      {
+        name: 'allorigins.win',
+        build: url => 'https://api.allorigins.win/get?url=' + encodeURIComponent(url),
+        extract: res => res.json().then(d => d.contents || ''),
+      },
+      {
+        name: 'codetabs.com',
+        build: url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
+        extract: res => res.text(),
+      },
+    ];
 
     // Init URL field
     document.getElementById('url-input').value = DEFAULT_URL;
@@ -239,7 +258,6 @@
 
     function addLog(level, msg) {
       const box = document.getElementById('log-box');
-      // Remove placeholder
       const empty = box.querySelector('.log-empty');
       if (empty) empty.remove();
 
@@ -255,6 +273,28 @@
     function clearLog() {
       document.getElementById('log-box').innerHTML =
         '<span class="log-empty">No requests yet.</span>';
+    }
+
+    /* ── Fetch via a single proxy (throws on failure) ── */
+    async function fetchViaProxy(proxy, targetUrl) {
+      const proxyUrl = proxy.build(targetUrl);
+      addLog('dim', `Trying proxy: ${proxy.name}`);
+      addLog('dim', `GET ${proxyUrl.slice(0, 90)}…`);
+
+      const t0 = Date.now();
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(15000) });
+      const elapsed = Date.now() - t0;
+
+      addLog('info', `${proxy.name} → HTTP ${res.status} ${res.statusText} (${elapsed} ms)`);
+      addLog('dim',  `Content-Type: ${res.headers.get('content-type') || 'unknown'}`);
+
+      if (!res.ok) throw new Error(`HTTP ${res.status} from ${proxy.name}`);
+
+      const html = await proxy.extract(res);
+      addLog('dim', `Response body size: ${html.length.toLocaleString()} characters`);
+      if (!html) throw new Error(`${proxy.name} returned empty body`);
+
+      return html;
     }
 
     /* ── Main check ── */
@@ -274,75 +314,62 @@
       status.innerHTML = '<span class="badge loading">Checking…</span>';
       lastChecked.textContent = '';
 
-      const proxyUrl = PROXY_BASE + encodeURIComponent(targetUrl);
-
       addLog('info', '── New check started ──');
       addLog('dim',  `Target URL: ${targetUrl}`);
-      addLog('dim',  `CORS Proxy: ${PROXY_BASE}...`);
-      addLog('info', 'Sending request via allorigins.win proxy…');
 
-      const t0 = Date.now();
+      let html = null;
+      let lastErr = null;
 
-      try {
-        addLog('dim', `GET ${proxyUrl.slice(0, 80)}…`);
-
-        const res = await fetch(proxyUrl);
-        const elapsed = Date.now() - t0;
-
-        addLog('info', `Response received — HTTP ${res.status} ${res.statusText} (${elapsed} ms)`);
-        addLog('dim',  `Content-Type: ${res.headers.get('content-type') || 'unknown'}`);
-
-        if (!res.ok) {
-          throw new Error(`Proxy returned HTTP ${res.status}`);
+      for (const proxy of PROXIES) {
+        try {
+          html = await fetchViaProxy(proxy, targetUrl);
+          addLog('info', `✓ Successfully fetched via ${proxy.name}`);
+          break;
+        } catch (err) {
+          lastErr = err;
+          addLog('warn', `✗ ${proxy.name} failed: ${err.message} — trying next proxy…`);
         }
+      }
 
-        addLog('info', 'Parsing JSON envelope from proxy…');
-        const data = await res.json();
-
-        const html = data.contents || '';
-        addLog('dim',  `Response body size: ${html.length.toLocaleString()} characters`);
-
-        if (!html) {
-          addLog('warn', 'Warning: proxy returned empty contents field.');
-        }
-
-        addLog('info', 'Scanning for "Enroll Now" text…');
-        const matches = [...html.matchAll(/enroll\s+now/gi)];
-        addLog('dim',  `Pattern matches found: ${matches.length}`);
-
-        const available = matches.length > 0;
-
-        if (available) {
-          addLog('success', `✓ AVAILABLE — "Enroll Now" found (${matches.length} occurrence${matches.length > 1 ? 's' : ''})`);
-          status.innerHTML = `
-            <span class="badge available">✓ Available!</span>
-            <span class="detail">Open spots found — enroll now!</span>
-            <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
-              Open booking site →
-            </a>`;
-        } else {
-          addLog('warn', '✗ No "Enroll Now" found — no open spots at this time.');
-          status.innerHTML = `
-            <span class="badge unavailable">No Openings</span>
-            <span class="detail">No "Enroll Now" options found at this time.</span>
-            <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
-              Check booking site →
-            </a>`;
-        }
-
-        lastChecked.textContent = `Last checked: ${new Date().toLocaleTimeString()}`;
-
-      } catch (err) {
-        const elapsed = Date.now() - t0;
-        addLog('error', `Request failed after ${elapsed} ms: ${err.message}`);
+      if (html === null) {
+        addLog('error', `All proxies failed. Last error: ${lastErr?.message}`);
         status.innerHTML = `
           <span class="badge unavailable">Error</span>
-          <span class="error-msg">${esc(err.message)}</span>`;
-      } finally {
+          <span class="error-msg">All proxies failed. Last error: ${esc(lastErr?.message)}</span>`;
         btn.disabled = false;
         btn.textContent = 'Check Availability';
         addLog('dim', '── Check complete ──');
+        return;
       }
+
+      addLog('info', 'Scanning for "Enroll Now" text…');
+      const matches = [...html.matchAll(/enroll\s+now/gi)];
+      addLog('dim', `Pattern matches found: ${matches.length}`);
+
+      const available = matches.length > 0;
+
+      if (available) {
+        addLog('success', `✓ AVAILABLE — "Enroll Now" found (${matches.length} occurrence${matches.length > 1 ? 's' : ''})`);
+        status.innerHTML = `
+          <span class="badge available">✓ Available!</span>
+          <span class="detail">Open spots found — enroll now!</span>
+          <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
+            Open booking site →
+          </a>`;
+      } else {
+        addLog('warn', '✗ No "Enroll Now" found — no open spots at this time.');
+        status.innerHTML = `
+          <span class="badge unavailable">No Openings</span>
+          <span class="detail">No "Enroll Now" options found at this time.</span>
+          <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
+            Check booking site →
+          </a>`;
+      }
+
+      lastChecked.textContent = `Last checked: ${new Date().toLocaleTimeString()}`;
+      btn.disabled = false;
+      btn.textContent = 'Check Availability';
+      addLog('dim', '── Check complete ──');
     }
 
     function esc(str) {
