@@ -396,7 +396,7 @@
                          /class=[^>]*btn/i.test(before.slice(-300));
 
         // Check the context doesn't mention Women
-        const isWomen = /\bwomen\b/i.test(before) || /\bwomen\b/i.test(after);
+        const isWomen = /\bwomen'?s?\b/i.test(before) || /\bwomen'?s?\b/i.test(after);
 
         addLog('dim',
           `  Match #${total}: inButton=${inButton}, isWomen=${isWomen} ` +
