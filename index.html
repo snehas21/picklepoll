@@ -370,7 +370,7 @@
       const available = findNonWomenEnrollNow(html);
 
       if (available) {
-        addLog('success', `✓ AVAILABLE — non-Women "Enroll Now" slot found`);
+        addLog('success', `✓ AVAILABLE — open non-Women, non-Lesson slot found`);
         status.innerHTML = `
           <span class="badge available">✓ Available!</span>
           <span class="detail">Open spots found — enroll now!</span>
@@ -378,10 +378,10 @@
             Open booking site →
           </a>`;
       } else {
-        addLog('warn', '✗ No qualifying "Enroll Now" found — no open non-Women spots at this time.');
+        addLog('warn', '✗ No qualifying slots — all were Women\'s or Lessons, or none found.');
         status.innerHTML = `
           <span class="badge unavailable">No Openings</span>
-          <span class="detail">No open (non-Women) spots found at this time.</span>
+          <span class="detail">No open spots (excluding Women's &amp; Lessons) found at this time.</span>
           <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
             Check booking site →
           </a>`;
@@ -394,49 +394,46 @@
     }
 
     /*
-     * Finds "Enroll Now" occurrences in the HTML that are NOT associated
-     * with a Women's activity.
+     * Finds "Enroll Now" occurrences that are:
+     *   - NOT a Women / Women's activity
+     *   - NOT a lesson (beginner/intermediate/advanced lessons)
      *
-     * Strategy: for each "Enroll Now" match, look backwards up to 3000
-     * characters (one activity card / table row worth of markup) for a
-     * "Women" label. Also look for a green-button indicator (button or
-     * anchor element). Skip any match whose context contains "Women".
+     * For each match, inspect up to 3000 chars of context before it
+     * (one activity card worth of content) plus 200 chars after.
      */
     function findNonWomenEnrollNow(html) {
       const enrollPattern = /enroll\s*now/gi;
       let match;
-      let total = 0, skippedWomen = 0, qualified = 0;
+      let total = 0, skippedWomen = 0, skippedLesson = 0, qualified = 0;
 
       while ((match = enrollPattern.exec(html)) !== null) {
         total++;
-        // Grab up to 3000 chars before the match as the activity context
         const contextStart = Math.max(0, match.index - 3000);
         const before = html.slice(contextStart, match.index);
-        // Also a small window after (for closing tags)
         const after  = html.slice(match.index, Math.min(html.length, match.index + 200));
+        const context = before + after;
 
-        // Check it's inside a button / anchor (green Enroll Now element)
-        const inButton = /<(button|a)\b[^>]*>/i.test(before.slice(-300)) ||
-                         /class=[^>]*btn/i.test(before.slice(-300));
+        const isWomen  = /\bwomen'?s?\b/i.test(context);
+        const isLesson = /\blesson s?\b|\blessons?\b/i.test(context);
 
-        // Check the context doesn't mention Women
-        const isWomen = /\bwomen'?s?\b/i.test(before) || /\bwomen'?s?\b/i.test(after);
-
-        addLog('dim',
-          `  Match #${total}: inButton=${inButton}, isWomen=${isWomen} ` +
-          `(context snippet: "${before.slice(-120).replace(/\s+/g,' ').trim().slice(-80)}")`
-        );
+        const snippet = before.slice(-120).replace(/\s+/g, ' ').trim().slice(-100);
+        addLog('dim', `  Match #${total}: isWomen=${isWomen}, isLesson=${isLesson} | …${snippet}`);
 
         if (isWomen) {
           skippedWomen++;
-          addLog('warn', `  → Skipped (Women activity detected in context)`);
+          addLog('warn', `  → Skipped (Women's activity)`);
+        } else if (isLesson) {
+          skippedLesson++;
+          addLog('warn', `  → Skipped (Lesson)`);
         } else {
           qualified++;
-          addLog('info', `  → Counts as available slot`);
+          addLog('info', `  → Qualifies as open non-Women, non-Lesson slot`);
         }
       }
 
-      addLog('dim', `Total "Enroll Now" found: ${total} | Skipped (Women): ${skippedWomen} | Qualified: ${qualified}`);
+      addLog('dim',
+        `Total: ${total} | Skipped Women: ${skippedWomen} | Skipped Lessons: ${skippedLesson} | Qualified: ${qualified}`
+      );
       return qualified > 0;
     }
 
