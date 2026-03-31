@@ -394,45 +394,55 @@
     }
 
     /*
-     * Finds "Enroll Now" occurrences that are:
-     *   - NOT a Women / Women's activity
-     *   - NOT a lesson (beginner/intermediate/advanced lessons)
+     * Splits the page text into per-activity blocks by finding all
+     * "Enroll Now" positions, then for each one takes the text from
+     * the END of the previous "Enroll Now" to the END of this one as
+     * the block. This ensures the entire activity card — however long —
+     * is checked, not just a fixed character window.
      *
-     * For each match, inspect up to 3000 chars of context before it
-     * (one activity card worth of content) plus 200 chars after.
+     * Skips any block whose text contains:
+     *   - "Women" or "Women's"
+     *   - "Lesson" or "Lessons"
      */
     function findNonWomenEnrollNow(html) {
+      // Collect all match positions first
+      const positions = [];
       const enrollPattern = /enroll\s*now/gi;
-      let match;
-      let total = 0, skippedWomen = 0, skippedLesson = 0, qualified = 0;
+      let m;
+      while ((m = enrollPattern.exec(html)) !== null) {
+        positions.push({ start: m.index, end: m.index + m[0].length });
+      }
 
-      while ((match = enrollPattern.exec(html)) !== null) {
-        total++;
-        const contextStart = Math.max(0, match.index - 3000);
-        const before = html.slice(contextStart, match.index);
-        const after  = html.slice(match.index, Math.min(html.length, match.index + 200));
-        const context = before + after;
+      addLog('dim', `Found ${positions.length} "Enroll Now" occurrence(s) total`);
 
-        const isWomen  = /\bwomen'?s?\b/i.test(context);
-        const isLesson = /\blessons?\b/i.test(context);
+      let skippedWomen = 0, skippedLesson = 0, qualified = 0;
 
-        const snippet = before.slice(-120).replace(/\s+/g, ' ').trim().slice(-100);
-        addLog('dim', `  Match #${total}: isWomen=${isWomen}, isLesson=${isLesson} | …${snippet}`);
+      positions.forEach((pos, i) => {
+        // Block spans from end of previous "Enroll Now" (or doc start) to end of this one
+        const blockStart = i === 0 ? 0 : positions[i - 1].end;
+        const block = html.slice(blockStart, pos.end);
+
+        const isWomen  = /\bwomen'?s?\b/i.test(block);
+        const isLesson = /\blessons?\b/i.test(block);
+
+        // Snippet: first 120 non-whitespace-collapsed chars of the block
+        const snippet = block.replace(/\s+/g, ' ').trim().slice(0, 120);
+        addLog('dim', `  Match #${i + 1}: isWomen=${isWomen}, isLesson=${isLesson} | ${snippet}…`);
 
         if (isWomen) {
           skippedWomen++;
           addLog('warn', `  → Skipped (Women's activity)`);
         } else if (isLesson) {
           skippedLesson++;
-          addLog('warn', `  → Skipped (Lesson)`);
+          addLog('warn', `  → Skipped (Lessons)`);
         } else {
           qualified++;
-          addLog('info', `  → Qualifies as open non-Women, non-Lesson slot`);
+          addLog('info', `  → Qualifies as open slot`);
         }
-      }
+      });
 
       addLog('dim',
-        `Total: ${total} | Skipped Women: ${skippedWomen} | Skipped Lessons: ${skippedLesson} | Qualified: ${qualified}`
+        `Total: ${positions.length} | Skipped Women: ${skippedWomen} | Skipped Lessons: ${skippedLesson} | Qualified: ${qualified}`
       );
       return qualified > 0;
     }
