@@ -223,23 +223,41 @@
       '&activity_keyword=pickleball&max_age=50&viewMode=list';
 
     // Each proxy has a different request/response shape:
-    //   build(url)  → full fetch URL
-    //   extract(res) → Promise<string> of the HTML body
+    //   build(url)    → full fetch URL
+    //   extract(res)  → Promise<string> of the page text/HTML
+    //   jsRendered    → true if it runs a real headless browser (waits for JS)
     const PROXIES = [
       {
-        name: 'corsproxy.io',
+        // Jina Reader: headless browser, executes JS, waits for page to render.
+        // Returns markdown of the fully-rendered page. Best for SPAs.
+        name: 'r.jina.ai (headless browser)',
+        jsRendered: true,
+        build: url => 'https://r.jina.ai/' + url,
+        extract: res => res.text(),
+        timeout: 40000, // page load + JS execution can take a while
+      },
+      {
+        // Raw HTML proxies below — these do NOT execute JavaScript.
+        // They will only work if the site embeds its data in the initial HTML.
+        name: 'corsproxy.io (raw HTML)',
+        jsRendered: false,
         build: url => 'https://corsproxy.io/?' + encodeURIComponent(url),
         extract: res => res.text(),
+        timeout: 15000,
       },
       {
-        name: 'allorigins.win',
+        name: 'allorigins.win (raw HTML)',
+        jsRendered: false,
         build: url => 'https://api.allorigins.win/get?url=' + encodeURIComponent(url),
         extract: res => res.json().then(d => d.contents || ''),
+        timeout: 15000,
       },
       {
-        name: 'codetabs.com',
+        name: 'codetabs.com (raw HTML)',
+        jsRendered: false,
         build: url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
         extract: res => res.text(),
+        timeout: 15000,
       },
     ];
 
@@ -278,11 +296,14 @@
     /* ── Fetch via a single proxy (throws on failure) ── */
     async function fetchViaProxy(proxy, targetUrl) {
       const proxyUrl = proxy.build(targetUrl);
-      addLog('dim', `Trying proxy: ${proxy.name}`);
+      addLog('dim', `Trying: ${proxy.name}`);
+      if (proxy.jsRendered) {
+        addLog('info', 'Headless browser loading page — waiting for JavaScript to render…');
+      }
       addLog('dim', `GET ${proxyUrl.slice(0, 90)}…`);
 
       const t0 = Date.now();
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(15000) });
+      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(proxy.timeout || 15000) });
       const elapsed = Date.now() - t0;
 
       addLog('info', `${proxy.name} → HTTP ${res.status} ${res.statusText} (${elapsed} ms)`);
@@ -323,7 +344,10 @@
       for (const proxy of PROXIES) {
         try {
           html = await fetchViaProxy(proxy, targetUrl);
-          addLog('info', `✓ Successfully fetched via ${proxy.name}`);
+          addLog('info', `✓ Fetched via ${proxy.name}${proxy.jsRendered ? ' (JS-rendered content)' : ' (static HTML only)'}`);
+          if (!proxy.jsRendered) {
+            addLog('warn', 'Warning: this proxy returns raw HTML without executing JavaScript. Results may be incomplete for SPA sites.');
+          }
           break;
         } catch (err) {
           lastErr = err;
