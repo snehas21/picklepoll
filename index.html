@@ -281,8 +281,18 @@
         addLog('dim', `Last checked by workflow: ${data.checkedAt || 'never'}`);
         addLog('dim', `Total Enroll Now found: ${data.total} | Qualified: ${data.qualified?.length ?? 0} | Skipped: ${data.skipped?.length ?? 0}`);
 
-        if (data.error && !data.checkedAt) {
-          throw new Error(data.error);
+        if (!data.checkedAt) {
+          addLog('warn', 'Workflow has not run yet. Trigger it manually from GitHub Actions.');
+          statusEl.innerHTML = `
+            <span class="badge unavailable">Not checked yet</span>
+            <span style="font-size:0.83rem;color:#5a7a69;text-align:center">
+              The scheduled check hasn't run yet.<br>
+              Go to <strong>GitHub → Actions → Check Pickleball Availability → Run workflow</strong>
+              to trigger it now.
+            </span>`;
+          btn.disabled = false;
+          btn.textContent = 'Check Availability';
+          return;
         }
 
         renderResults(data, statusEl, slotsEl, skippedEl);
