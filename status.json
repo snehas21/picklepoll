@@ -1,8 +1,39 @@
 {
-  "checkedAt": null,
-  "available": false,
-  "total": 0,
-  "qualified": [],
-  "skipped": [],
-  "error": "No check has been run yet."
+  "checkedAt": "2026-04-01T00:15:23.015Z",
+  "available": true,
+  "total": 5,
+  "qualified": [
+    {
+      "title": "Pickleball - Adult (Drop In) #143429/18 yrs +/Openings 5 Oak Ridges CC April 7, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 5,
+      "date": "April 7, 2026",
+      "time": "8:30 AM - 10:00 AM",
+      "raw": "Pickleball - Adult (Drop In) #143429/18 yrs +/Openings 5 Oak Ridges CC April 7, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 10 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 10,
+      "date": "April 10, 2026",
+      "time": "8:30 AM - 10:00 AM",
+      "raw": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 10 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143431/18 yrs +/Openings 1 Oak Ridges CC April 10, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "April 10, 2026",
+      "time": "4:00 PM - 5:30 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143431/18 yrs +/Openings 1 Oak Ridges CC April 10, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+    }
+  ],
+  "skipped": [
+    {
+      "title": "1 space(s) left Pickleball Lessons - Intermediate #142461/18 yrs +/Openings 1 Oak Ridges CC March 31",
+      "reason": "Lessons"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) - Women Only #143433/18 yrs +/Openings 9 Oak Ridges CC April 10, 2026 F",
+      "reason": "Women's"
+    }
+  ],
+  "error": null
 }
