@@ -22,52 +22,14 @@
       border-radius: 16px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.10);
       padding: 40px 36px 36px;
-      max-width: 600px;
+      max-width: 620px;
       width: 100%;
     }
 
-    .header { text-align: center; margin-bottom: 32px; }
+    .header { text-align: center; margin-bottom: 28px; }
     .logo   { font-size: 48px; margin-bottom: 10px; }
     h1      { font-size: 1.6rem; color: #1a4731; margin-bottom: 6px; }
-    .subtitle { color: #5a7a69; font-size: 0.95rem; }
-
-    /* URL editor */
-    .url-section { margin-bottom: 20px; }
-
-    .url-label {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 6px;
-    }
-
-    .url-label span { font-size: 0.8rem; font-weight: 600; color: #5a7a69; text-transform: uppercase; letter-spacing: 0.05em; }
-
-    #url-input {
-      width: 100%;
-      padding: 10px 12px;
-      border: 1.5px solid #c8ddd4;
-      border-radius: 8px;
-      font-size: 0.82rem;
-      font-family: monospace;
-      color: #1a4731;
-      background: #f7fcf9;
-      resize: vertical;
-      min-height: 72px;
-      transition: border-color 0.2s;
-    }
-    #url-input:focus { outline: none; border-color: #2e7d52; background: #fff; }
-
-    .reset-btn {
-      background: none;
-      border: none;
-      color: #2e7d52;
-      font-size: 0.78rem;
-      cursor: pointer;
-      padding: 2px 0;
-      text-decoration: underline;
-    }
-    .reset-btn:hover { color: #1a4731; }
+    .subtitle { color: #5a7a69; font-size: 0.93rem; }
 
     /* Check button */
     #check-btn {
@@ -75,37 +37,34 @@
       color: #fff;
       border: none;
       border-radius: 10px;
-      padding: 14px 36px;
+      padding: 13px 36px;
       font-size: 1rem;
       font-weight: 600;
       cursor: pointer;
       transition: background 0.2s, transform 0.1s;
       width: 100%;
-      margin-bottom: 24px;
+      margin-bottom: 22px;
     }
     #check-btn:hover:not(:disabled) { background: #245f3f; }
     #check-btn:active:not(:disabled) { transform: scale(0.98); }
     #check-btn:disabled { background: #a0c4b0; cursor: not-allowed; }
 
-    /* Result badge */
+    /* Overall status badge */
     #status {
       text-align: center;
-      min-height: 60px;
+      margin-bottom: 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 24px;
+      gap: 8px;
     }
 
     .badge {
       display: inline-block;
-      padding: 12px 28px;
+      padding: 11px 26px;
       border-radius: 50px;
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       font-weight: 700;
-      letter-spacing: 0.02em;
     }
     .badge.available   { background: #d4edda; color: #155724; border: 2px solid #28a745; }
     .badge.unavailable { background: #f8d7da; color: #721c24; border: 2px solid #dc3545; }
@@ -113,46 +72,109 @@
                          animation: pulse 1.2s ease-in-out infinite; }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
 
-    .detail    { font-size: 0.85rem; color: #5a7a69; }
-    .error-msg { color: #c0392b; font-size: 0.88rem; }
+    .error-msg { color: #c0392b; font-size: 0.85rem; text-align: center; }
+
+    /* Slot cards */
+    .slots { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+
+    .slot {
+      border: 1.5px solid #c8ddd4;
+      border-radius: 10px;
+      padding: 14px 16px;
+      background: #f7fcf9;
+    }
+
+    .slot-title {
+      font-weight: 700;
+      color: #1a4731;
+      font-size: 0.97rem;
+      margin-bottom: 6px;
+    }
+
+    .slot-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 0.82rem;
+      color: #5a7a69;
+    }
+
+    .slot-meta span { display: flex; align-items: center; gap: 4px; }
+
+    .openings-pill {
+      display: inline-block;
+      background: #d4edda;
+      color: #155724;
+      border-radius: 20px;
+      padding: 1px 10px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
 
     .booking-link {
       display: inline-block;
-      margin-top: 4px;
+      margin-top: 8px;
       color: #2e7d52;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
       text-decoration: none;
     }
     .booking-link:hover { text-decoration: underline; }
 
+    /* Skipped section */
+    .skipped-section {
+      border-top: 1px solid #e0eeea;
+      padding-top: 14px;
+      margin-bottom: 18px;
+    }
+
+    .skipped-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #a0b8aa;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+
+    .skipped-item {
+      font-size: 0.8rem;
+      color: #a0b8aa;
+      padding: 2px 0;
+    }
+
+    .skipped-item .reason {
+      background: #f8d7da;
+      color: #721c24;
+      border-radius: 10px;
+      padding: 1px 7px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      margin-right: 5px;
+    }
+
     /* Log panel */
-    .log-section { border-top: 1px solid #e0eeea; padding-top: 20px; }
+    .log-section { border-top: 1px solid #e0eeea; padding-top: 18px; }
 
     .log-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .log-title {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 700;
       color: #5a7a69;
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
 
-    .log-actions { display: flex; gap: 10px; align-items: center; }
-
     .clear-btn {
-      background: none;
-      border: none;
-      color: #aaa;
-      font-size: 0.75rem;
-      cursor: pointer;
-      text-decoration: underline;
+      background: none; border: none;
+      color: #aaa; font-size: 0.73rem;
+      cursor: pointer; text-decoration: underline;
     }
     .clear-btn:hover { color: #c0392b; }
 
@@ -160,27 +182,25 @@
       background: #0f1c15;
       color: #b2f0c8;
       border-radius: 10px;
-      padding: 14px 16px;
+      padding: 12px 14px;
       font-family: 'Courier New', monospace;
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       line-height: 1.6;
-      max-height: 280px;
+      max-height: 220px;
       overflow-y: auto;
-      min-height: 60px;
+      min-height: 48px;
     }
 
     .log-line { display: flex; gap: 10px; }
     .log-ts   { color: #5a9a72; flex-shrink: 0; }
-    .log-msg  { color: #d4f5e2; white-space: pre-wrap; word-break: break-all; }
-    .log-msg.info  { color: #b2f0c8; }
-    .log-msg.warn  { color: #ffe08a; }
-    .log-msg.error { color: #ff8080; }
+    .log-msg.info    { color: #b2f0c8; }
+    .log-msg.warn    { color: #ffe08a; }
+    .log-msg.error   { color: #ff8080; }
     .log-msg.success { color: #6effa8; font-weight: bold; }
-    .log-msg.dim   { color: #5a9a72; }
+    .log-msg.dim     { color: #5a9a72; }
+    .log-empty       { color: #3a6a4a; font-style: italic; }
 
-    .log-empty { color: #3a6a4a; font-style: italic; }
-
-    .last-checked { text-align: center; margin-top: 14px; font-size: 0.78rem; color: #a0b8aa; }
+    .last-checked { text-align: center; margin-top: 14px; font-size: 0.76rem; color: #a0b8aa; }
   </style>
 </head>
 <body>
@@ -188,27 +208,19 @@
     <div class="header">
       <div class="logo">🏓</div>
       <h1>Picklepoll</h1>
-      <p class="subtitle">Check pickleball court availability in Richmond Hill</p>
+      <p class="subtitle">Pickleball court availability — Richmond Hill (ages 40–50, open spots only)</p>
     </div>
 
-    <div class="url-section">
-      <div class="url-label">
-        <span>Booking URL</span>
-        <button class="reset-btn" onclick="resetUrl()">Reset to default</button>
-      </div>
-      <textarea id="url-input" spellcheck="false"></textarea>
-    </div>
-
-    <button id="check-btn" onclick="checkAvailability()">Check Availability</button>
+    <button id="check-btn" onclick="loadStatus()">Check Availability</button>
 
     <div id="status"></div>
+    <div id="slots"  class="slots"></div>
+    <div id="skipped-section"></div>
 
     <div class="log-section">
       <div class="log-header">
-        <span class="log-title">Request Log</span>
-        <div class="log-actions">
-          <button class="clear-btn" onclick="clearLog()">Clear</button>
-        </div>
+        <span class="log-title">Log</span>
+        <button class="clear-btn" onclick="clearLog()">Clear</button>
       </div>
       <div id="log-box"><span class="log-empty">No requests yet.</span></div>
     </div>
@@ -217,68 +229,17 @@
   </div>
 
   <script>
-    const DEFAULT_URL =
+    const BOOKING_URL =
       'https://anc.ca.apm.activecommunities.com/richmondhill/activity/search' +
       '?onlineSiteId=0&activity_select_param=2&open_spots=1&min_age=40' +
       '&activity_keyword=pickleball&max_age=50&viewMode=list';
 
-    // Each proxy has a different request/response shape:
-    //   build(url)    → full fetch URL
-    //   extract(res)  → Promise<string> of the page text/HTML
-    //   jsRendered    → true if it runs a real headless browser (waits for JS)
-    const PROXIES = [
-      {
-        // Jina Reader: headless browser, executes JS, waits for page to render.
-        // Returns markdown of the fully-rendered page. Best for SPAs.
-        name: 'r.jina.ai (headless browser)',
-        jsRendered: true,
-        build: url => 'https://r.jina.ai/' + url,
-        extract: res => res.text(),
-        timeout: 40000, // page load + JS execution can take a while
-      },
-      {
-        // Raw HTML proxies below — these do NOT execute JavaScript.
-        // They will only work if the site embeds its data in the initial HTML.
-        name: 'corsproxy.io (raw HTML)',
-        jsRendered: false,
-        build: url => 'https://corsproxy.io/?' + encodeURIComponent(url),
-        extract: res => res.text(),
-        timeout: 15000,
-      },
-      {
-        name: 'allorigins.win (raw HTML)',
-        jsRendered: false,
-        build: url => 'https://api.allorigins.win/get?url=' + encodeURIComponent(url),
-        extract: res => res.json().then(d => d.contents || ''),
-        timeout: 15000,
-      },
-      {
-        name: 'codetabs.com (raw HTML)',
-        jsRendered: false,
-        build: url => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(url),
-        extract: res => res.text(),
-        timeout: 15000,
-      },
-    ];
-
-    // Init URL field
-    document.getElementById('url-input').value = DEFAULT_URL;
-
-    function resetUrl() {
-      document.getElementById('url-input').value = DEFAULT_URL;
-      addLog('info', 'URL reset to default.');
-    }
-
     /* ── Logging ── */
-    function ts() {
-      return new Date().toLocaleTimeString('en-CA', { hour12: false });
-    }
+    function ts() { return new Date().toLocaleTimeString('en-CA', { hour12: false }); }
 
     function addLog(level, msg) {
       const box = document.getElementById('log-box');
-      const empty = box.querySelector('.log-empty');
-      if (empty) empty.remove();
-
+      box.querySelector('.log-empty')?.remove();
       const line = document.createElement('div');
       line.className = 'log-line';
       line.innerHTML =
@@ -293,162 +254,104 @@
         '<span class="log-empty">No requests yet.</span>';
     }
 
-    /* ── Fetch via a single proxy (throws on failure) ── */
-    async function fetchViaProxy(proxy, targetUrl) {
-      const proxyUrl = proxy.build(targetUrl);
-      addLog('dim', `Trying: ${proxy.name}`);
-      if (proxy.jsRendered) {
-        addLog('info', 'Headless browser loading page — waiting for JavaScript to render…');
-      }
-      addLog('dim', `GET ${proxyUrl.slice(0, 90)}…`);
-
-      const t0 = Date.now();
-      const res = await fetch(proxyUrl, { signal: AbortSignal.timeout(proxy.timeout || 15000) });
-      const elapsed = Date.now() - t0;
-
-      addLog('info', `${proxy.name} → HTTP ${res.status} ${res.statusText} (${elapsed} ms)`);
-      addLog('dim',  `Content-Type: ${res.headers.get('content-type') || 'unknown'}`);
-
-      if (!res.ok) throw new Error(`HTTP ${res.status} from ${proxy.name}`);
-
-      const html = await proxy.extract(res);
-      addLog('dim', `Response body size: ${html.length.toLocaleString()} characters`);
-      if (!html) throw new Error(`${proxy.name} returned empty body`);
-
-      return html;
-    }
-
-    /* ── Main check ── */
-    async function checkAvailability() {
-      const btn = document.getElementById('check-btn');
-      const status = document.getElementById('status');
-      const lastChecked = document.getElementById('last-checked');
-
-      const targetUrl = document.getElementById('url-input').value.trim();
-      if (!targetUrl) {
-        addLog('error', 'URL is empty. Please enter a booking URL.');
-        return;
-      }
+    /* ── Load status.json ── */
+    async function loadStatus() {
+      const btn       = document.getElementById('check-btn');
+      const statusEl  = document.getElementById('status');
+      const slotsEl   = document.getElementById('slots');
+      const skippedEl = document.getElementById('skipped-section');
+      const lcEl      = document.getElementById('last-checked');
 
       btn.disabled = true;
-      btn.textContent = 'Checking…';
-      status.innerHTML = '<span class="badge loading">Checking…</span>';
-      lastChecked.textContent = '';
+      btn.textContent = 'Loading…';
+      statusEl.innerHTML  = '<span class="badge loading">Checking…</span>';
+      slotsEl.innerHTML   = '';
+      skippedEl.innerHTML = '';
+      lcEl.textContent    = '';
 
-      addLog('info', '── New check started ──');
-      addLog('dim',  `Target URL: ${targetUrl}`);
+      addLog('info', '── Fetching latest status ──');
 
-      let html = null;
-      let lastErr = null;
+      try {
+        // Cache-bust so we always get the freshest status.json
+        const res = await fetch('./status.json?t=' + Date.now());
+        addLog('info', `status.json → HTTP ${res.status} (${res.statusText})`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-      for (const proxy of PROXIES) {
-        try {
-          html = await fetchViaProxy(proxy, targetUrl);
-          addLog('info', `✓ Fetched via ${proxy.name}${proxy.jsRendered ? ' (JS-rendered content)' : ' (static HTML only)'}`);
-          if (!proxy.jsRendered) {
-            addLog('warn', 'Warning: this proxy returns raw HTML without executing JavaScript. Results may be incomplete for SPA sites.');
-          }
-          break;
-        } catch (err) {
-          lastErr = err;
-          addLog('warn', `✗ ${proxy.name} failed: ${err.message} — trying next proxy…`);
+        const data = await res.json();
+        addLog('dim', `Last checked by workflow: ${data.checkedAt || 'never'}`);
+        addLog('dim', `Total Enroll Now found: ${data.total} | Qualified: ${data.qualified?.length ?? 0} | Skipped: ${data.skipped?.length ?? 0}`);
+
+        if (data.error && !data.checkedAt) {
+          throw new Error(data.error);
         }
-      }
 
-      if (html === null) {
-        addLog('error', `All proxies failed. Last error: ${lastErr?.message}`);
-        status.innerHTML = `
+        renderResults(data, statusEl, slotsEl, skippedEl);
+
+        const checkedAt = data.checkedAt
+          ? new Date(data.checkedAt).toLocaleString()
+          : 'never';
+        lcEl.textContent = `Last automatically checked: ${checkedAt}`;
+
+        if (data.error) {
+          addLog('warn', `Workflow reported error: ${data.error}`);
+        }
+
+      } catch (err) {
+        addLog('error', `Failed to load status: ${err.message}`);
+        statusEl.innerHTML = `
           <span class="badge unavailable">Error</span>
-          <span class="error-msg">All proxies failed. Last error: ${esc(lastErr?.message)}</span>`;
+          <span class="error-msg">${esc(err.message)}</span>`;
+      } finally {
         btn.disabled = false;
         btn.textContent = 'Check Availability';
-        addLog('dim', '── Check complete ──');
-        return;
+        addLog('dim', '── Done ──');
       }
-
-      addLog('info', 'Scanning for "Enroll Now" results (excluding Women)…');
-      const available = findNonWomenEnrollNow(html);
-
-      if (available) {
-        addLog('success', `✓ AVAILABLE — open non-Women, non-Lesson slot found`);
-        status.innerHTML = `
-          <span class="badge available">✓ Available!</span>
-          <span class="detail">Open spots found — enroll now!</span>
-          <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
-            Open booking site →
-          </a>`;
-      } else {
-        addLog('warn', '✗ No qualifying slots — all were Women\'s or Lessons, or none found.');
-        status.innerHTML = `
-          <span class="badge unavailable">No Openings</span>
-          <span class="detail">No open spots (excluding Women's &amp; Lessons) found at this time.</span>
-          <a class="booking-link" href="${esc(targetUrl)}" target="_blank" rel="noopener">
-            Check booking site →
-          </a>`;
-      }
-
-      lastChecked.textContent = `Last checked: ${new Date().toLocaleTimeString()}`;
-      btn.disabled = false;
-      btn.textContent = 'Check Availability';
-      addLog('dim', '── Check complete ──');
     }
 
-    /*
-     * Splits the page text into per-activity blocks by finding all
-     * "Enroll Now" positions, then for each one takes the text from
-     * the END of the previous "Enroll Now" to the END of this one as
-     * the block. This ensures the entire activity card — however long —
-     * is checked, not just a fixed character window.
-     *
-     * Skips any block whose text contains:
-     *   - "Women" or "Women's"
-     *   - "Lesson" or "Lessons"
-     */
-    function findNonWomenEnrollNow(html) {
-      // Collect all match positions first
-      const positions = [];
-      const enrollPattern = /enroll\s*now/gi;
-      let m;
-      while ((m = enrollPattern.exec(html)) !== null) {
-        positions.push({ start: m.index, end: m.index + m[0].length });
+    function renderResults(data, statusEl, slotsEl, skippedEl) {
+      if (data.available && data.qualified?.length) {
+        addLog('success', `✓ AVAILABLE — ${data.qualified.length} open slot(s) found`);
+        statusEl.innerHTML = `<span class="badge available">✓ Available!</span>`;
+
+        for (const slot of data.qualified) {
+          addLog('info', `  Slot: ${slot.title}${slot.openings ? ' — ' + slot.openings + ' opening(s)' : ''}`);
+          const div = document.createElement('div');
+          div.className = 'slot';
+          div.innerHTML = `
+            <div class="slot-title">${esc(slot.title)}</div>
+            <div class="slot-meta">
+              ${slot.openings != null ? `<span><span class="openings-pill">${slot.openings} opening${slot.openings !== 1 ? 's' : ''}</span></span>` : ''}
+              ${slot.date ? `<span>📅 ${esc(slot.date)}</span>` : ''}
+              ${slot.time ? `<span>🕐 ${esc(slot.time)}</span>` : ''}
+            </div>
+            <a class="booking-link" href="${esc(BOOKING_URL)}" target="_blank" rel="noopener">Enroll Now →</a>`;
+          slotsEl.appendChild(div);
+        }
+
+      } else {
+        addLog('warn', '✗ No qualifying slots found');
+        statusEl.innerHTML = `
+          <span class="badge unavailable">No Openings</span>
+          <a class="booking-link" href="${esc(BOOKING_URL)}" target="_blank" rel="noopener"
+             style="margin-top:8px">Check booking site →</a>`;
       }
 
-      addLog('dim', `Found ${positions.length} "Enroll Now" occurrence(s) total`);
-
-      let skippedWomen = 0, skippedLesson = 0, qualified = 0;
-
-      positions.forEach((pos, i) => {
-        // Block spans from end of previous "Enroll Now" (or doc start) to end of this one
-        const blockStart = i === 0 ? 0 : positions[i - 1].end;
-        const block = html.slice(blockStart, pos.end);
-
-        const isWomen  = /\bwomen'?s?\b/i.test(block);
-        const isLesson = /\blessons?\b/i.test(block);
-
-        // Snippet: first 120 non-whitespace-collapsed chars of the block
-        const snippet = block.replace(/\s+/g, ' ').trim().slice(0, 120);
-        addLog('dim', `  Match #${i + 1}: isWomen=${isWomen}, isLesson=${isLesson} | ${snippet}…`);
-
-        if (isWomen) {
-          skippedWomen++;
-          addLog('warn', `  → Skipped (Women's activity)`);
-        } else if (isLesson) {
-          skippedLesson++;
-          addLog('warn', `  → Skipped (Lessons)`);
-        } else {
-          qualified++;
-          addLog('info', `  → Qualifies as open slot`);
+      // Show skipped items
+      if (data.skipped?.length) {
+        addLog('dim', `Skipped: ${data.skipped.map(s => s.reason).join(', ')}`);
+        let html = '<div class="skipped-section"><div class="skipped-title">Filtered out</div>';
+        for (const s of data.skipped) {
+          html += `<div class="skipped-item">
+            <span class="reason">${esc(s.reason)}</span>${esc(s.title || '')}
+          </div>`;
         }
-      });
-
-      addLog('dim',
-        `Total: ${positions.length} | Skipped Women: ${skippedWomen} | Skipped Lessons: ${skippedLesson} | Qualified: ${qualified}`
-      );
-      return qualified > 0;
+        html += '</div>';
+        skippedEl.innerHTML = html;
+      }
     }
 
     function esc(str) {
-      return String(str)
+      return String(str ?? '')
         .replace(/&/g, '&amp;').replace(/</g, '&lt;')
         .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
