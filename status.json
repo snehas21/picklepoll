@@ -1,21 +1,21 @@
 {
-  "checkedAt": "2026-04-01T21:59:30.099Z",
+  "checkedAt": "2026-04-01T22:52:24.976Z",
   "available": true,
   "total": 7,
   "qualified": [
     {
-      "title": "4 space(s) left Pickleball - Adult (Drop In) #147585/18 yrs +/Openings 4 Elgin West CC April 2, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
-      "openings": 4,
+      "title": "Starting soon Pickleball - Adult (Drop In) #147585/18 yrs +/Openings 5 Elgin West CC April 2, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
+      "openings": 5,
       "date": "April 2, 2026",
       "time": "9:00 AM - 10:30 AM",
-      "raw": "4 space(s) left Pickleball - Adult (Drop In) #147585/18 yrs +/Openings 4 Elgin West CC April 2, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #147585/18 yrs +/Openings 5 Elgin West CC April 2, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #146224/18 yrs +/Openings 1 Oak Ridges CC April 2, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #146224/18 yrs +/Openings 1 Oak Ridges CC April 2, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
       "openings": 1,
       "date": "April 2, 2026",
       "time": "11:00 AM - 12:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #146224/18 yrs +/Openings 1 Oak Ridges CC April 2, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146224/18 yrs +/Openings 1 Oak Ridges CC April 2, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
       "title": "4 space(s) left Pickleball - Adult (Drop In) #143429/18 yrs +/Openings 4 Oak Ridges CC April 7, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -45,7 +45,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Women Only #143433/18 yrs +/Openings 9 Oak Ridges CC April 10, 2026 F",
+      "title": "Pickleball - Adult (Drop In) - Women Only #143433/18 yrs +/Openings 8 Oak Ridges CC April 10, 2026 F",
       "reason": "Women's"
     }
   ],
