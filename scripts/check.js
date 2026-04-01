@@ -59,6 +59,8 @@ async function check() {
         skipped.push({ title: text.slice(0, 100), reason: "Women's" });
       } else if (isLesson) {
         skipped.push({ title: text.slice(0, 100), reason: 'Lessons' });
+      } else if (!/pickleball\s*-\s*adult\s*\(drop\s*in\)/i.test(text)) {
+        skipped.push({ title: text.slice(0, 100), reason: 'Not Drop In' });
       } else {
         qualified.push(parseCard(text));
       }
