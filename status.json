@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-04-03T16:04:31.817Z",
+  "checkedAt": "2026-04-03T16:58:29.066Z",
   "available": true,
-  "total": 6,
+  "total": 5,
   "qualified": [
     {
       "title": "3 space(s) left Pickleball - Adult (Drop In) #143429/18 yrs +/Openings 3 Oak Ridges CC April 7, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -11,13 +11,6 @@
       "raw": "3 space(s) left Pickleball - Adult (Drop In) #143429/18 yrs +/Openings 3 Oak Ridges CC April 7, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #146067/18 yrs +/Openings 1 Rouge Woods CC April 8, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "April 8, 2026",
-      "time": "11:00 AM - 12:30 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146067/18 yrs +/Openings 1 Rouge Woods CC April 8, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
-    },
-    {
       "title": "2 space(s) left Pickleball - Adult (Drop In) #147499/18 yrs +/Openings 2 Oak Ridges CC April 9, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
       "openings": 2,
       "date": "April 9, 2026",
@@ -25,11 +18,11 @@
       "raw": "2 space(s) left Pickleball - Adult (Drop In) #147499/18 yrs +/Openings 2 Oak Ridges CC April 9, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 6 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 6,
+      "title": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 5 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 5,
       "date": "April 10, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 6 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 5 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     }
   ],
   "skipped": [
