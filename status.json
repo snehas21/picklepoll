@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-04-08T11:56:55.673Z",
+  "checkedAt": "2026-04-08T13:46:13.234Z",
   "available": true,
-  "total": 7,
+  "total": 8,
   "qualified": [
     {
       "title": "1 space(s) left Pickleball - Adult (Drop In) #143430/18 yrs +/Openings 1 Oak Ridges CC April 8, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
@@ -11,11 +11,18 @@
       "raw": "1 space(s) left Pickleball - Adult (Drop In) #143430/18 yrs +/Openings 1 Oak Ridges CC April 8, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 3 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 3,
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #147499/18 yrs +/Openings 2 Oak Ridges CC April 9, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "April 9, 2026",
+      "time": "11:00 AM - 12:30 PM",
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #147499/18 yrs +/Openings 2 Oak Ridges CC April 9, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 1 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 1,
       "date": "April 10, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 3 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) - Beginner #143432/18 yrs +/Openings 1 Oak Ridges CC April 10, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #147424/18 yrs +/Openings 11 Oak Ridges CC April 14, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -45,7 +52,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Women Only #147445/18 yrs +/Openings 7 Oak Ridges CC April 17, 2026 F",
+      "title": "Pickleball - Adult (Drop In) - Women Only #147445/18 yrs +/Openings 5 Oak Ridges CC April 17, 2026 F",
       "reason": "Women's"
     }
   ],
