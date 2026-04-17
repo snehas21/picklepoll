@@ -1,8 +1,15 @@
 {
-  "checkedAt": "2026-04-17T20:50:19.399Z",
+  "checkedAt": "2026-04-17T21:44:54.355Z",
   "available": true,
-  "total": 6,
+  "total": 8,
   "qualified": [
+    {
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #143091/18 yrs +/Openings 2 Elgin West CC April 20, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "April 20, 2026",
+      "time": "2:45 PM - 4:15 PM",
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #143091/18 yrs +/Openings 2 Elgin West CC April 20, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
+    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147425/18 yrs +/Openings 12 Oak Ridges CC April 21, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 12,
@@ -18,11 +25,18 @@
       "raw": "1 space(s) left Pickleball - Adult (Drop In) #147501/18 yrs +/Openings 1 Oak Ridges CC April 23, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Beginner #147436/18 yrs +/Openings 6 Oak Ridges CC April 24, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 6,
+      "title": "Pickleball - Adult (Drop In) - Beginner #147436/18 yrs +/Openings 7 Oak Ridges CC April 24, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 7,
       "date": "April 24, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "Pickleball - Adult (Drop In) - Beginner #147436/18 yrs +/Openings 6 Oak Ridges CC April 24, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) - Beginner #147436/18 yrs +/Openings 7 Oak Ridges CC April 24, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #143392/18 yrs +/Openings 2 Elgin West CC April 24, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "April 24, 2026",
+      "time": "12:15 PM - 1:45 PM",
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #143392/18 yrs +/Openings 2 Elgin West CC April 24, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
