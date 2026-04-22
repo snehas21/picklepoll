@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-04-22T18:51:28.710Z",
+  "checkedAt": "2026-04-22T20:07:06.457Z",
   "available": true,
   "total": 15,
   "qualified": [
     {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #147588/18 yrs +/Openings 3 Elgin West CC April 23, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
-      "openings": 3,
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #147588/18 yrs +/Openings 1 Elgin West CC April 23, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
+      "openings": 1,
       "date": "April 23, 2026",
       "time": "9:00 AM - 10:30 AM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #147588/18 yrs +/Openings 3 Elgin West CC April 23, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #147588/18 yrs +/Openings 1 Elgin West CC April 23, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
     },
     {
       "title": "2 space(s) left Pickleball - Adult (Drop In) #147501/18 yrs +/Openings 2 Oak Ridges CC April 23, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
@@ -74,16 +74,16 @@
       "raw": "Pickleball - Adult (Drop In) - Beginner #147437/18 yrs +/Openings 18 Oak Ridges CC May 1, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #147468/18 yrs +/Openings 3 Oak Ridges CC May 1, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 3,
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #147468/18 yrs +/Openings 2 Oak Ridges CC May 1, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 2,
       "date": "May 1, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #147468/18 yrs +/Openings 3 Oak Ridges CC May 1, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #147468/18 yrs +/Openings 2 Oak Ridges CC May 1, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 3 Oak Ridges CC April 28, 2026 to May 19",
+      "title": "Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 4 Oak Ridges CC April 28, 2026 to May 19",
       "reason": "Lessons"
     },
     {
