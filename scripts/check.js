@@ -16,7 +16,8 @@ function slotKey(slot) {
 function isTargetSlot(slot) {
   if (!slot.date) return false;
   const day = new Date(slot.date).getDay();
-  if (day === 0 || day === 6) return true; // Sunday or Saturday
+  if (day === 0 || day === 6) return true; // Sunday or Saturday (any time)
+  if (day === 5 && slot.time && /^8:30\s*am/i.test(slot.time))  return true; // Friday 8:30 AM
   if (day === 5 && slot.time && /^12:15\s*pm/i.test(slot.time)) return true; // Friday 12:15 PM
   return false;
 }
@@ -108,22 +109,23 @@ async function check() {
     } catch (_) {}
 
     const targetSlots = qualified.filter(s => isTargetSlot(s));
-    const newWeekendSlots = targetSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
+    // Only notify once per slot — filter out keys already recorded in status.json
+    const newTargetSlots = targetSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
 
-    if (newWeekendSlots.length > 0) {
-      console.log(`Found ${newWeekendSlots.length} new weekend slot(s) — sending notification…`);
-      const lines = newWeekendSlots.map(
+    if (newTargetSlots.length > 0) {
+      console.log(`Found ${newTargetSlots.length} new target slot(s) — sending notification…`);
+      const lines = newTargetSlots.map(
         s => `• ${s.date} ${s.time} (${s.openings} spot${s.openings === 1 ? '' : 's'})`
       );
       const msg =
         lines.join('\n') + '\n' +
         'Book: https://anc.ca.apm.activecommunities.com/richmondhill/activity/search?activity_keyword=pickleball';
-      await sendNotification('Pickleball weekend opening!', msg);
+      await sendNotification('Pickleball opening available!', msg);
     } else {
-      console.log('No new weekend slots to notify about.');
+      console.log('No new target slots to notify about.');
     }
 
-    // Persist all weekend slot keys we've ever notified about
+    // Persist notified slot keys — each slot triggers at most one notification ever
     const notifiedSlots = [
       ...new Set([...prevNotifiedSlots, ...targetSlots.map(slotKey)]),
     ];
@@ -139,18 +141,20 @@ async function check() {
     };
 
     fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
-    console.log(`Done. ${qualified.length} qualified (${targetSlots.length} weekend), ${skipped.length} skipped.`);
+    console.log(`Done. ${qualified.length} qualified (${targetSlots.length} target), ${skipped.length} skipped.`);
     process.exit(0);
 
   } catch (err) {
     console.error('Check failed:', err.message);
+    let prevNotifiedSlots = [];
+    try { prevNotifiedSlots = JSON.parse(fs.readFileSync(STATUS_FILE, 'utf8')).notifiedSlots || []; } catch (_) {}
     fs.writeFileSync(STATUS_FILE, JSON.stringify({
       checkedAt: new Date().toISOString(),
       available: false,
       total: 0,
       qualified: [],
       skipped: [],
-      notifiedSlots: [],
+      notifiedSlots: prevNotifiedSlots,
       error: err.message,
     }, null, 2));
     process.exit(1);
