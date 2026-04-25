@@ -35,7 +35,7 @@ async function sendNotification(title, message) {
   });
   await transporter.sendMail({
     from: GMAIL_USER,
-    to: '6479734086@txt.bell.ca',
+    to: 'snehashis@gmail.com',
     subject: title,
     text: message,
   });
