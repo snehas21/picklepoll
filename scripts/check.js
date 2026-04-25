@@ -9,6 +9,40 @@ const BOOKING_URL =
 
 const STATUS_FILE = path.join(__dirname, '..', 'status.json');
 
+function slotKey(slot) {
+  return `${slot.date}|${slot.time}`;
+}
+
+function isWeekend(dateStr) {
+  if (!dateStr) return false;
+  const day = new Date(dateStr).getDay();
+  return day === 0 || day === 6; // Sunday or Saturday
+}
+
+async function sendSMS(message) {
+  const { TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_FROM, TWILIO_TO } = process.env;
+  if (!TWILIO_ACCOUNT_SID || !TWILIO_AUTH_TOKEN || !TWILIO_FROM || !TWILIO_TO) {
+    console.log('Twilio credentials not set — skipping SMS.');
+    return;
+  }
+  const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`;
+  const creds = Buffer.from(`${TWILIO_ACCOUNT_SID}:${TWILIO_AUTH_TOKEN}`).toString('base64');
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      Authorization: `Basic ${creds}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: new URLSearchParams({ From: TWILIO_FROM, To: TWILIO_TO, Body: message }).toString(),
+  });
+  const data = await res.json();
+  if (res.ok) {
+    console.log(`SMS sent: ${data.sid}`);
+  } else {
+    console.error(`SMS failed: ${data.message}`);
+  }
+}
+
 async function check() {
   console.log('Launching browser…');
   const browser = await chromium.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
@@ -66,17 +100,46 @@ async function check() {
       }
     }
 
+    // Load previously notified slot keys to avoid duplicate SMS
+    let prevNotifiedSlots = [];
+    try {
+      const prev = JSON.parse(fs.readFileSync(STATUS_FILE, 'utf8'));
+      prevNotifiedSlots = prev.notifiedSlots || [];
+    } catch (_) {}
+
+    const weekendSlots = qualified.filter(s => isWeekend(s.date));
+    const newWeekendSlots = weekendSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
+
+    if (newWeekendSlots.length > 0) {
+      console.log(`Found ${newWeekendSlots.length} new weekend slot(s) — sending SMS…`);
+      const lines = newWeekendSlots.map(
+        s => `• ${s.date} ${s.time} (${s.openings} spot${s.openings === 1 ? '' : 's'})`
+      );
+      const msg =
+        `Pickleball weekend opening(s)!\n${lines.join('\n')}\n` +
+        `Book: https://anc.ca.apm.activecommunities.com/richmondhill/activity/search?activity_keyword=pickleball`;
+      await sendSMS(msg);
+    } else {
+      console.log('No new weekend slots to notify about.');
+    }
+
+    // Persist all weekend slot keys we've ever notified about
+    const notifiedSlots = [
+      ...new Set([...prevNotifiedSlots, ...weekendSlots.map(slotKey)]),
+    ];
+
     const status = {
       checkedAt: new Date().toISOString(),
       available: qualified.length > 0,
       total: cards.length,
       qualified,
       skipped,
+      notifiedSlots,
       error: null,
     };
 
     fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
-    console.log(`Done. ${qualified.length} qualified, ${skipped.length} skipped.`);
+    console.log(`Done. ${qualified.length} qualified (${weekendSlots.length} weekend), ${skipped.length} skipped.`);
     process.exit(0);
 
   } catch (err) {
@@ -87,6 +150,7 @@ async function check() {
       total: 0,
       qualified: [],
       skipped: [],
+      notifiedSlots: [],
       error: err.message,
     }, null, 2));
     process.exit(1);
