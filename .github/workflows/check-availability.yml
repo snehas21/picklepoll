@@ -2,8 +2,8 @@ name: Check Pickleball Availability
 
 on:
   schedule:
-    # Every 15 minutes between 7am–10pm ET (11:00–02:00 UTC)
-    - cron: '*/15 11-23,0-2 * * *'
+    # Every hour between 7am–10pm ET (11:00–02:00 UTC)
+    - cron: '0 11-23,0-2 * * *'
   workflow_dispatch: # allow manual trigger from GitHub Actions UI
 
 jobs:
@@ -26,6 +26,8 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run availability check
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: node scripts/check.js
 
       - name: Commit updated status.json
