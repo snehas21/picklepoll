@@ -13,10 +13,12 @@ function slotKey(slot) {
   return `${slot.date}|${slot.time}`;
 }
 
-function isWeekend(dateStr) {
-  if (!dateStr) return false;
-  const day = new Date(dateStr).getDay();
-  return day === 0 || day === 6; // Sunday or Saturday
+function isTargetSlot(slot) {
+  if (!slot.date) return false;
+  const day = new Date(slot.date).getDay();
+  if (day === 0 || day === 6) return true; // Sunday or Saturday
+  if (day === 5 && slot.time && /^12:15\s*pm/i.test(slot.time)) return true; // Friday 12:15 PM
+  return false;
 }
 
 async function sendNotification(title, message) {
@@ -105,8 +107,8 @@ async function check() {
       prevNotifiedSlots = prev.notifiedSlots || [];
     } catch (_) {}
 
-    const weekendSlots = qualified.filter(s => isWeekend(s.date));
-    const newWeekendSlots = weekendSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
+    const targetSlots = qualified.filter(s => isTargetSlot(s));
+    const newWeekendSlots = targetSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
 
     if (newWeekendSlots.length > 0) {
       console.log(`Found ${newWeekendSlots.length} new weekend slot(s) — sending notification…`);
@@ -123,7 +125,7 @@ async function check() {
 
     // Persist all weekend slot keys we've ever notified about
     const notifiedSlots = [
-      ...new Set([...prevNotifiedSlots, ...weekendSlots.map(slotKey)]),
+      ...new Set([...prevNotifiedSlots, ...targetSlots.map(slotKey)]),
     ];
 
     const status = {
@@ -137,7 +139,7 @@ async function check() {
     };
 
     fs.writeFileSync(STATUS_FILE, JSON.stringify(status, null, 2));
-    console.log(`Done. ${qualified.length} qualified (${weekendSlots.length} weekend), ${skipped.length} skipped.`);
+    console.log(`Done. ${qualified.length} qualified (${targetSlots.length} weekend), ${skipped.length} skipped.`);
     process.exit(0);
 
   } catch (err) {
