@@ -19,27 +19,25 @@ function isWeekend(dateStr) {
   return day === 0 || day === 6; // Sunday or Saturday
 }
 
-async function sendSMS(message) {
-  const { TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_FROM, TWILIO_TO } = process.env;
-  if (!TWILIO_ACCOUNT_SID || !TWILIO_AUTH_TOKEN || !TWILIO_FROM || !TWILIO_TO) {
-    console.log('Twilio credentials not set — skipping SMS.');
+async function sendNotification(title, message) {
+  const topic = process.env.NTFY_TOPIC;
+  if (!topic) {
+    console.log('NTFY_TOPIC not set — skipping notification.');
     return;
   }
-  const url = `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`;
-  const creds = Buffer.from(`${TWILIO_ACCOUNT_SID}:${TWILIO_AUTH_TOKEN}`).toString('base64');
-  const res = await fetch(url, {
+  const res = await fetch(`https://ntfy.sh/${topic}`, {
     method: 'POST',
     headers: {
-      Authorization: `Basic ${creds}`,
-      'Content-Type': 'application/x-www-form-urlencoded',
+      Title: title,
+      Priority: 'high',
+      Tags: 'sports,white_check_mark',
     },
-    body: new URLSearchParams({ From: TWILIO_FROM, To: TWILIO_TO, Body: message }).toString(),
+    body: message,
   });
-  const data = await res.json();
   if (res.ok) {
-    console.log(`SMS sent: ${data.sid}`);
+    console.log('Notification sent via ntfy.sh');
   } else {
-    console.error(`SMS failed: ${data.message}`);
+    console.error(`ntfy.sh failed: ${res.status} ${await res.text()}`);
   }
 }
 
@@ -111,14 +109,14 @@ async function check() {
     const newWeekendSlots = weekendSlots.filter(s => !prevNotifiedSlots.includes(slotKey(s)));
 
     if (newWeekendSlots.length > 0) {
-      console.log(`Found ${newWeekendSlots.length} new weekend slot(s) — sending SMS…`);
+      console.log(`Found ${newWeekendSlots.length} new weekend slot(s) — sending notification…`);
       const lines = newWeekendSlots.map(
         s => `• ${s.date} ${s.time} (${s.openings} spot${s.openings === 1 ? '' : 's'})`
       );
       const msg =
-        `Pickleball weekend opening(s)!\n${lines.join('\n')}\n` +
-        `Book: https://anc.ca.apm.activecommunities.com/richmondhill/activity/search?activity_keyword=pickleball`;
-      await sendSMS(msg);
+        lines.join('\n') + '\n' +
+        'Book: https://anc.ca.apm.activecommunities.com/richmondhill/activity/search?activity_keyword=pickleball';
+      await sendNotification('Pickleball weekend opening!', msg);
     } else {
       console.log('No new weekend slots to notify about.');
     }

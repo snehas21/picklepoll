@@ -27,10 +27,7 @@ jobs:
 
       - name: Run availability check
         env:
-          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
-          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
-          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
-          TWILIO_TO: ${{ secrets.TWILIO_TO }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: node scripts/check.js
 
       - name: Commit updated status.json
