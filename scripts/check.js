@@ -1,4 +1,5 @@
 const { chromium } = require('playwright');
+const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
 
@@ -23,25 +24,22 @@ function isTargetSlot(slot) {
 }
 
 async function sendNotification(title, message) {
-  const topic = process.env.NTFY_TOPIC;
-  if (!topic) {
-    console.log('NTFY_TOPIC not set — skipping notification.');
+  const { GMAIL_USER, GMAIL_APP_PASSWORD } = process.env;
+  if (!GMAIL_USER || !GMAIL_APP_PASSWORD) {
+    console.log('Gmail credentials not set — skipping notification.');
     return;
   }
-  const res = await fetch(`https://ntfy.sh/${topic}`, {
-    method: 'POST',
-    headers: {
-      Title: title,
-      Priority: 'high',
-      Tags: 'sports,white_check_mark',
-    },
-    body: message,
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD },
   });
-  if (res.ok) {
-    console.log('Notification sent via ntfy.sh');
-  } else {
-    console.error(`ntfy.sh failed: ${res.status} ${await res.text()}`);
-  }
+  await transporter.sendMail({
+    from: GMAIL_USER,
+    to: '6479734086@txt.bell.ca',
+    subject: title,
+    text: message,
+  });
+  console.log('SMS sent via Bell email gateway');
 }
 
 async function check() {

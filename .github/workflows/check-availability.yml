@@ -27,7 +27,8 @@ jobs:
 
       - name: Run availability check
         env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: node scripts/check.js
 
       - name: Commit updated status.json
