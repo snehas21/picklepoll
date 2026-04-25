@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-04-25T17:02:44.966Z",
+  "checkedAt": "2026-04-25T18:12:23.668Z",
   "available": true,
   "total": 7,
   "qualified": [
@@ -42,9 +42,12 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Women Only #147447/18 yrs +/Openings 8 Oak Ridges CC May 1, 2026 Fri ",
+      "title": "Pickleball - Adult (Drop In) - Women Only #147447/18 yrs +/Openings 9 Oak Ridges CC May 1, 2026 Fri ",
       "reason": "Women's"
     }
+  ],
+  "notifiedSlots": [
+    "May 1, 2026|8:30 AM - 10:00 AM"
   ],
   "error": null
 }
