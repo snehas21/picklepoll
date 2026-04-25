@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-04-25T21:38:14.197Z",
+  "checkedAt": "2026-04-25T22:39:12.742Z",
   "available": true,
-  "total": 7,
+  "total": 8,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147426/18 yrs +/Openings 11 Oak Ridges CC April 28, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -33,6 +33,10 @@
     }
   ],
   "skipped": [
+    {
+      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #146135/18 yrs +/Openings 1 Rouge",
+      "reason": "Not Drop In"
+    },
     {
       "title": "Starting soon Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 5 Oak Ridges CC April 28, ",
       "reason": "Lessons"
