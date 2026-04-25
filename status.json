@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-04-25T18:56:15.643Z",
+  "checkedAt": "2026-04-25T18:58:22.369Z",
   "available": true,
   "total": 7,
   "qualified": [
@@ -46,6 +46,8 @@
       "reason": "Women's"
     }
   ],
-  "notifiedSlots": [],
+  "notifiedSlots": [
+    "May 1, 2026|8:30 AM - 10:00 AM"
+  ],
   "error": null
 }
