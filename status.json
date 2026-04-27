@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-04-27T22:55:01.639Z",
+  "checkedAt": "2026-04-27T23:55:32.232Z",
   "available": true,
-  "total": 20,
+  "total": 18,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147426/18 yrs +/Openings 9 Oak Ridges CC April 28, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -9,20 +9,6 @@
       "date": "April 28, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Starting soon Pickleball - Adult (Drop In) #147426/18 yrs +/Openings 9 Oak Ridges CC April 28, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #143060/18 yrs +/Openings 1 Elgin West CC April 28, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "April 28, 2026",
-      "time": "1:30 PM - 3:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143060/18 yrs +/Openings 1 Elgin West CC April 28, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #146070/18 yrs +/Openings 1 Rouge Woods CC April 29, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "April 29, 2026",
-      "time": "11:00 AM - 12:30 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146070/18 yrs +/Openings 1 Rouge Woods CC April 29, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
       "title": "4 space(s) left Pickleball - Adult (Drop In) #147457/18 yrs +/Openings 4 Oak Ridges CC April 29, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
@@ -46,11 +32,25 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147502/18 yrs +/Openings 3 Oak Ridges CC April 30, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143039/18 yrs +/Openings 1 Elgin West CC April 30, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "April 30, 2026",
+      "time": "3:00 PM - 4:30 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143039/18 yrs +/Openings 1 Elgin West CC April 30, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now"
+    },
+    {
       "title": "Starting soon Pickleball - Adult (Drop In) - Beginner #147437/18 yrs +/Openings 9 Oak Ridges CC May 1, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 9,
       "date": "May 1, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Starting soon Pickleball - Adult (Drop In) - Beginner #147437/18 yrs +/Openings 9 Oak Ridges CC May 1, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #143104/18 yrs +/Openings 1 Elgin West CC May 1, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "May 1, 2026",
+      "time": "5:30 PM - 7:00 PM",
+      "raw": "Pickleball - Adult (Drop In) #143104/18 yrs +/Openings 1 Elgin West CC May 1, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #147427/18 yrs +/Openings 20 Oak Ridges CC May 5, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -100,20 +100,9 @@
       "date": "May 8, 2026",
       "time": "4:00 PM - 5:30 PM",
       "raw": "Pickleball - Adult (Drop In) #147469/18 yrs +/Openings 4 Oak Ridges CC May 8, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) #143105/18 yrs +/Openings 7 Elgin West CC May 8, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
-      "openings": 7,
-      "date": "May 8, 2026",
-      "time": "5:30 PM - 7:00 PM",
-      "raw": "Pickleball - Adult (Drop In) #143105/18 yrs +/Openings 7 Elgin West CC May 8, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
-    {
-      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #146036/18 yrs +/Openings 1 Roug",
-      "reason": "Not Drop In"
-    },
     {
       "title": "Starting soon Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 4 Oak Ridges CC April 28, ",
       "reason": "Lessons"
