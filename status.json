@@ -1,22 +1,8 @@
 {
-  "checkedAt": "2026-04-30T12:16:33.421Z",
+  "checkedAt": "2026-04-30T15:12:15.191Z",
   "available": true,
-  "total": 14,
+  "total": 13,
   "qualified": [
-    {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #147589/18 yrs +/Openings 3 Elgin West CC April 30, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
-      "openings": 3,
-      "date": "April 30, 2026",
-      "time": "9:00 AM - 10:30 AM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #147589/18 yrs +/Openings 3 Elgin West CC April 30, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147502/18 yrs +/Openings 4 Oak Ridges CC April 30, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 4,
-      "date": "April 30, 2026",
-      "time": "11:00 AM - 12:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147502/18 yrs +/Openings 4 Oak Ridges CC April 30, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
-    },
     {
       "title": "4 space(s) left Pickleball - Adult (Drop In) #143039/18 yrs +/Openings 4 Elgin West CC April 30, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
       "openings": 4,
@@ -30,6 +16,13 @@
       "date": "May 1, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Starting soon Pickleball - Adult (Drop In) - Beginner #147437/18 yrs +/Openings 7 Oak Ridges CC May 1, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143049/18 yrs +/Openings 1 Elgin West CC May 1, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "May 1, 2026",
+      "time": "12:15 PM - 1:45 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143049/18 yrs +/Openings 1 Elgin West CC May 1, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
     },
     {
       "title": "1 space(s) left Pickleball - Adult (Drop In) #147468/18 yrs +/Openings 1 Oak Ridges CC May 1, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
@@ -101,7 +94,8 @@
     "April 26, 2026|null",
     "April 26, 2026|3:30 PM - 5:00 PM",
     "May 8, 2026|8:30 AM - 10:00 AM",
-    "May 8, 2026|12:15 PM - 1:45 PM"
+    "May 8, 2026|12:15 PM - 1:45 PM",
+    "May 1, 2026|12:15 PM - 1:45 PM"
   ],
   "error": null
 }
