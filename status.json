@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-03T14:51:16.731Z",
+  "checkedAt": "2026-05-03T15:50:46.378Z",
   "available": true,
-  "total": 8,
+  "total": 7,
   "qualified": [
     {
       "title": "2 space(s) left Pickleball - Adult (Drop In) #146245/18 yrs +/Openings 2 Rouge Woods CC May 3, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
@@ -11,18 +11,11 @@
       "raw": "2 space(s) left Pickleball - Adult (Drop In) #146245/18 yrs +/Openings 2 Rouge Woods CC May 3, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
     },
     {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #143615/18 yrs +/Openings 1 Langstaff CC May 3, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "May 3, 2026",
-      "time": "3:30 PM - 5:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143615/18 yrs +/Openings 1 Langstaff CC May 3, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) #143093/18 yrs +/Openings 1 Elgin West CC May 4, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143093/18 yrs +/Openings 1 Elgin West CC May 4, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
       "openings": 1,
       "date": "May 4, 2026",
       "time": "2:45 PM - 4:15 PM",
-      "raw": "Pickleball - Adult (Drop In) #143093/18 yrs +/Openings 1 Elgin West CC May 4, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143093/18 yrs +/Openings 1 Elgin West CC May 4, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147427/18 yrs +/Openings 15 Oak Ridges CC May 5, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -48,7 +41,7 @@
   ],
   "skipped": [
     {
-      "title": "In progress Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 3 Oak Ridges CC April 28, 20",
+      "title": "2 space(s) left Pickleball Lessons - Intermediate #142462/18 yrs +/Openings 2 Oak Ridges CC April 28",
       "reason": "Lessons"
     },
     {
