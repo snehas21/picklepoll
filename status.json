@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-05-11T22:09:21.572Z",
+  "checkedAt": "2026-05-11T23:59:44.638Z",
   "available": true,
   "total": 20,
   "qualified": [
@@ -9,13 +9,6 @@
       "date": "May 12, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Starting soon Pickleball - Adult (Drop In) #147428/18 yrs +/Openings 15 Oak Ridges CC May 12, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #146049/18 yrs +/Openings 2 Rouge Woods CC May 12, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now",
-      "openings": 2,
-      "date": "May 12, 2026",
-      "time": "1:00 PM - 2:30 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #146049/18 yrs +/Openings 2 Rouge Woods CC May 12, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #143062/18 yrs +/Openings 6 Elgin West CC May 12, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
@@ -114,6 +107,13 @@
       "date": "May 22, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Pickleball - Adult (Drop In) - Beginner #147440/18 yrs +/Openings 20 Oak Ridges CC May 22, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "3 space(s) left Pickleball - Adult (Drop In) #143112/18 yrs +/Openings 3 Elgin West CC May 22, 2026 Fri 10:30 AM - Noon $5.75 Enroll Now",
+      "openings": 3,
+      "date": "May 22, 2026",
+      "time": null,
+      "raw": "3 space(s) left Pickleball - Adult (Drop In) #143112/18 yrs +/Openings 3 Elgin West CC May 22, 2026 Fri 10:30 AM - Noon $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -122,7 +122,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "2 space(s) left Pickleball - Women's Adult (Drop In) #143145/18 yrs +/Openings 2 Elgin West CC May 1",
+      "title": "3 space(s) left Pickleball - Women's Adult (Drop In) #143145/18 yrs +/Openings 3 Elgin West CC May 1",
       "reason": "Women's"
     },
     {
