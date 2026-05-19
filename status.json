@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-05-18T23:03:29.798Z",
+  "checkedAt": "2026-05-19T03:40:18.317Z",
   "available": true,
   "total": 20,
   "qualified": [
@@ -11,18 +11,18 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147429/18 yrs +/Openings 19 Oak Ridges CC May 19, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #146050/18 yrs +/Openings 2 Rouge Woods CC May 19, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now",
-      "openings": 2,
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #146050/18 yrs +/Openings 1 Rouge Woods CC May 19, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now",
+      "openings": 1,
       "date": "May 19, 2026",
       "time": "1:00 PM - 2:30 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #146050/18 yrs +/Openings 2 Rouge Woods CC May 19, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146050/18 yrs +/Openings 1 Rouge Woods CC May 19, 2026 Tue 1:00 PM - 2:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #143063/18 yrs +/Openings 2 Elgin West CC May 19, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 2,
+      "title": "Starting soon Pickleball - Adult (Drop In) #143063/18 yrs +/Openings 7 Elgin West CC May 19, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
+      "openings": 7,
       "date": "May 19, 2026",
       "time": "1:30 PM - 3:00 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #143063/18 yrs +/Openings 2 Elgin West CC May 19, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #143063/18 yrs +/Openings 7 Elgin West CC May 19, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147461/18 yrs +/Openings 8 Oak Ridges CC May 20, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
@@ -95,11 +95,11 @@
       "raw": "1 space(s) left Pickleball - Adult (Drop In) #146122/18 yrs +/Openings 1 Rouge Woods CC May 22, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #143095/18 yrs +/Openings 9 Elgin West CC May 25, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
-      "openings": 9,
+      "title": "Pickleball - Adult (Drop In) #143095/18 yrs +/Openings 7 Elgin West CC May 25, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
+      "openings": 7,
       "date": "May 25, 2026",
       "time": "2:45 PM - 4:15 PM",
-      "raw": "Pickleball - Adult (Drop In) #143095/18 yrs +/Openings 9 Elgin West CC May 25, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #143095/18 yrs +/Openings 7 Elgin West CC May 25, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #147430/18 yrs +/Openings 23 Oak Ridges CC May 26, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -107,13 +107,6 @@
       "date": "May 26, 2026",
       "time": "8:30 AM - 10:00 AM",
       "raw": "Pickleball - Adult (Drop In) #147430/18 yrs +/Openings 23 Oak Ridges CC May 26, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) #143064/18 yrs +/Openings 5 Elgin West CC May 26, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 5,
-      "date": "May 26, 2026",
-      "time": "1:30 PM - 3:00 PM",
-      "raw": "Pickleball - Adult (Drop In) #143064/18 yrs +/Openings 5 Elgin West CC May 26, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -122,7 +115,11 @@
       "reason": "Lessons"
     },
     {
-      "title": "Starting soon Pickleball - Women's Adult (Drop In) #143146/18 yrs +/Openings 9 Elgin West CC May 19,",
+      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #146039/18 yrs +/Openings 2 Roug",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Starting soon Pickleball - Women's Adult (Drop In) #143146/18 yrs +/Openings 11 Elgin West CC May 19",
       "reason": "Women's"
     },
     {
