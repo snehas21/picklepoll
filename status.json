@@ -1,28 +1,14 @@
 {
-  "checkedAt": "2026-05-22T13:32:47.776Z",
+  "checkedAt": "2026-05-22T16:27:15.356Z",
   "available": true,
   "total": 20,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143112/18 yrs +/Openings 16 Elgin West CC May 22, 2026 Fri 10:30 AM - Noon $5.75 Enroll Now",
-      "openings": 16,
-      "date": "May 22, 2026",
-      "time": null,
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143112/18 yrs +/Openings 16 Elgin West CC May 22, 2026 Fri 10:30 AM - Noon $5.75 Enroll Now"
-    },
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143114/18 yrs +/Openings 11 Elgin West CC May 22, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now",
-      "openings": 11,
-      "date": "May 22, 2026",
-      "time": "12:15 PM - 1:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143114/18 yrs +/Openings 11 Elgin West CC May 22, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147471/18 yrs +/Openings 7 Oak Ridges CC May 22, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 7,
+      "title": "Starting soon Pickleball - Adult (Drop In) #147471/18 yrs +/Openings 3 Oak Ridges CC May 22, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 3,
       "date": "May 22, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147471/18 yrs +/Openings 7 Oak Ridges CC May 22, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #147471/18 yrs +/Openings 3 Oak Ridges CC May 22, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     },
     {
       "title": "3 space(s) left Pickleball - Adult (Drop In) #143107/18 yrs +/Openings 3 Elgin West CC May 22, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
@@ -32,11 +18,11 @@
       "raw": "3 space(s) left Pickleball - Adult (Drop In) #143107/18 yrs +/Openings 3 Elgin West CC May 22, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
     },
     {
-      "title": "4 space(s) left Pickleball - Adult (Drop In) #146122/18 yrs +/Openings 4 Rouge Woods CC May 22, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 4,
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #146122/18 yrs +/Openings 2 Rouge Woods CC May 22, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 2,
       "date": "May 22, 2026",
       "time": "7:00 PM - 8:30 PM",
-      "raw": "4 space(s) left Pickleball - Adult (Drop In) #146122/18 yrs +/Openings 4 Rouge Woods CC May 22, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #146122/18 yrs +/Openings 2 Rouge Woods CC May 22, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
       "title": "3 space(s) left Pickleball - Adult (Drop In) #143607/18 yrs +/Openings 3 Langstaff CC May 23, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
@@ -121,6 +107,20 @@
       "date": "May 29, 2026",
       "time": null,
       "raw": "Pickleball - Adult (Drop In) #143074/18 yrs +/Openings 14 Elgin West CC May 29, 2026 Fri 10:30 AM - Noon $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #143052/18 yrs +/Openings 12 Elgin West CC May 29, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now",
+      "openings": 12,
+      "date": "May 29, 2026",
+      "time": "12:15 PM - 1:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #143052/18 yrs +/Openings 12 Elgin West CC May 29, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #147472/18 yrs +/Openings 8 Oak Ridges CC May 29, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 8,
+      "date": "May 29, 2026",
+      "time": "4:00 PM - 5:30 PM",
+      "raw": "Pickleball - Adult (Drop In) #147472/18 yrs +/Openings 8 Oak Ridges CC May 29, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -168,7 +168,8 @@
     "May 24, 2026|10:30 AM - 11:55 AM",
     "May 24, 2026|null",
     "May 29, 2026|8:30 AM - 10:00 AM",
-    "May 24, 2026|3:30 PM - 5:00 PM"
+    "May 24, 2026|3:30 PM - 5:00 PM",
+    "May 29, 2026|12:15 PM - 1:45 PM"
   ],
   "error": null
 }
