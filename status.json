@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-05-23T16:02:58.747Z",
+  "checkedAt": "2026-05-23T18:02:52.662Z",
   "available": true,
-  "total": 19,
+  "total": 18,
   "qualified": [
-    {
-      "title": "Pickleball - Adult (Drop In) #146248/18 yrs +/Openings 1 Rouge Woods CC May 24, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "May 24, 2026",
-      "time": null,
-      "raw": "Pickleball - Adult (Drop In) #146248/18 yrs +/Openings 1 Rouge Woods CC May 24, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
-    },
     {
       "title": "4 space(s) left Pickleball - Adult (Drop In) #143095/18 yrs +/Openings 4 Elgin West CC May 25, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
       "openings": 4,
@@ -95,11 +88,11 @@
       "raw": "Pickleball - Adult (Drop In) #143108/18 yrs +/Openings 7 Elgin West CC May 29, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #146124/18 yrs +/Openings 7 Rouge Woods CC May 29, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 7,
+      "title": "Pickleball - Adult (Drop In) #146124/18 yrs +/Openings 6 Rouge Woods CC May 29, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 6,
       "date": "May 29, 2026",
       "time": "7:00 PM - 8:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #146124/18 yrs +/Openings 7 Rouge Woods CC May 29, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #146124/18 yrs +/Openings 6 Rouge Woods CC May 29, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
       "title": "2 space(s) left Pickleball - Adult (Drop In) #143608/18 yrs +/Openings 2 Langstaff CC May 30, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
@@ -111,12 +104,12 @@
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Women's Adult (Drop In) #143147/18 yrs +/Openings 17 Elgin West CC May 26",
-      "reason": "Women's"
+      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #146139/18 yrs +/Openings 1 Rouge",
+      "reason": "Not Drop In"
     },
     {
-      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #146062/18 yrs +/Openings 1 Roug",
-      "reason": "Not Drop In"
+      "title": "Starting soon Pickleball - Women's Adult (Drop In) #143147/18 yrs +/Openings 17 Elgin West CC May 26",
+      "reason": "Women's"
     },
     {
       "title": "1 space(s) left Pickleball Strategy Intermediate Lessons #141800/18 yrs +/Openings 1 Rouge Woods CC ",
