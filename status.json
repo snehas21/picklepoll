@@ -1,22 +1,8 @@
 {
-  "checkedAt": "2026-05-29T18:13:24.213Z",
+  "checkedAt": "2026-05-29T21:09:18.194Z",
   "available": true,
-  "total": 15,
+  "total": 11,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147472/18 yrs +/Openings 9 Oak Ridges CC May 29, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 9,
-      "date": "May 29, 2026",
-      "time": "4:00 PM - 5:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147472/18 yrs +/Openings 9 Oak Ridges CC May 29, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #143108/18 yrs +/Openings 1 Elgin West CC May 29, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "May 29, 2026",
-      "time": "5:30 PM - 7:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143108/18 yrs +/Openings 1 Elgin West CC May 29, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
-    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #143096/18 yrs +/Openings 13 Elgin West CC June 1, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
       "openings": 13,
@@ -72,23 +58,12 @@
       "date": "June 5, 2026",
       "time": "5:30 PM - 7:00 PM",
       "raw": "Pickleball - Adult (Drop In) #143109/18 yrs +/Openings 6 Elgin West CC June 5, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #143609/18 yrs +/Openings 2 Langstaff CC June 6, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 2,
-      "date": "June 6, 2026",
-      "time": "7:00 PM - 8:30 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #143609/18 yrs +/Openings 2 Langstaff CC June 6, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
       "title": "2 space(s) left Pickleball Strategy Intermediate Lessons #141800/18 yrs +/Openings 2 Rouge Woods CC ",
       "reason": "Lessons"
-    },
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) - Women Only #147451/18 yrs +/Openings 12 Oak Ridges CC M",
-      "reason": "Women's"
     },
     {
       "title": "Starting soon Pickleball - Women's Adult (Drop In) #143148/18 yrs +/Openings 18 Elgin West CC June 2",
