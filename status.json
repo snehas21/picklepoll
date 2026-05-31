@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-05-31T05:19:28.914Z",
+  "checkedAt": "2026-05-31T12:12:41.075Z",
   "available": true,
-  "total": 13,
+  "total": 14,
   "qualified": [
     {
       "title": "3 space(s) left Pickleball - Adult (Drop In) #146238/18 yrs +/Openings 3 Rouge Woods CC May 31, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
@@ -79,11 +79,18 @@
       "date": "June 5, 2026",
       "time": "5:30 PM - 7:00 PM",
       "raw": "4 space(s) left Pickleball - Adult (Drop In) #143109/18 yrs +/Openings 4 Elgin West CC June 5, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #146239/18 yrs +/Openings 1 Rouge Woods CC June 7, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "June 7, 2026",
+      "time": "10:30 AM - 11:55 AM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146239/18 yrs +/Openings 1 Rouge Woods CC June 7, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #146140/18 yrs +/Openings 3 Rouge Woods CC May 31",
+      "title": "3 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #146140/18 yrs +/Openings 3 Rouge",
       "reason": "Not Drop In"
     },
     {
@@ -128,7 +135,8 @@
     "May 31, 2026|null",
     "May 31, 2026|10:30 AM - 11:55 AM",
     "June 6, 2026|7:00 PM - 8:30 PM",
-    "May 31, 2026|3:30 PM - 5:00 PM"
+    "May 31, 2026|3:30 PM - 5:00 PM",
+    "June 7, 2026|10:30 AM - 11:55 AM"
   ],
   "error": null
 }
