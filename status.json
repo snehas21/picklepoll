@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-06-03T15:28:25.308Z",
+  "checkedAt": "2026-06-03T19:51:22.396Z",
   "available": true,
   "total": 20,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147462/18 yrs +/Openings 19 Oak Ridges CC June 3, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
-      "openings": 19,
-      "date": "June 3, 2026",
-      "time": "1:00 PM - 2:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147462/18 yrs +/Openings 19 Oak Ridges CC June 3, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now"
-    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147594/18 yrs +/Openings 14 Elgin West CC June 4, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
       "openings": 14,
@@ -18,25 +11,18 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147594/18 yrs +/Openings 14 Elgin West CC June 4, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147507/18 yrs +/Openings 8 Oak Ridges CC June 4, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 8,
+      "title": "Starting soon Pickleball - Adult (Drop In) #147507/18 yrs +/Openings 7 Oak Ridges CC June 4, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "openings": 7,
       "date": "June 4, 2026",
       "time": "11:00 AM - 12:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147507/18 yrs +/Openings 8 Oak Ridges CC June 4, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #147507/18 yrs +/Openings 7 Oak Ridges CC June 4, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143044/18 yrs +/Openings 8 Elgin West CC June 4, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
-      "openings": 8,
+      "title": "Starting soon Pickleball - Adult (Drop In) #143044/18 yrs +/Openings 9 Elgin West CC June 4, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
+      "openings": 9,
       "date": "June 4, 2026",
       "time": "3:00 PM - 4:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143044/18 yrs +/Openings 8 Elgin West CC June 4, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #146087/18 yrs +/Openings 1 Rouge Woods CC June 4, 2026 Thu 5:45 PM - 7:05 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "June 4, 2026",
-      "time": "5:45 PM - 7:05 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146087/18 yrs +/Openings 1 Rouge Woods CC June 4, 2026 Thu 5:45 PM - 7:05 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #143044/18 yrs +/Openings 9 Elgin West CC June 4, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #143109/18 yrs +/Openings 5 Elgin West CC June 5, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
@@ -128,6 +114,20 @@
       "date": "June 12, 2026",
       "time": "4:00 PM - 5:30 PM",
       "raw": "Pickleball - Adult (Drop In) #147473/18 yrs +/Openings 9 Oak Ridges CC June 12, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #143110/18 yrs +/Openings 11 Elgin West CC June 12, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
+      "openings": 11,
+      "date": "June 12, 2026",
+      "time": "5:30 PM - 7:00 PM",
+      "raw": "Pickleball - Adult (Drop In) #143110/18 yrs +/Openings 11 Elgin West CC June 12, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "3 space(s) left Pickleball - Adult (Drop In) #146126/18 yrs +/Openings 3 Rouge Woods CC June 12, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 3,
+      "date": "June 12, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "3 space(s) left Pickleball - Adult (Drop In) #146126/18 yrs +/Openings 3 Rouge Woods CC June 12, 2026 Fri 7:00 PM - 8:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
