@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-06-08T14:49:28.018Z",
+  "checkedAt": "2026-06-08T17:55:38.983Z",
   "available": true,
   "total": 20,
   "qualified": [
@@ -111,6 +111,10 @@
   ],
   "skipped": [
     {
+      "title": "1 space(s) left Pickleball Strategy Intermediate Lessons #141802/18 yrs +/Openings 1 Rouge Woods CC ",
+      "reason": "Lessons"
+    },
+    {
       "title": "Starting soon Pickleball - Women's Adult (Drop In) #143149/18 yrs +/Openings 19 Elgin West CC June 9",
       "reason": "Women's"
     },
@@ -125,10 +129,6 @@
     {
       "title": "Pickleball - Adult Beginner/Beginner Plus (Drop In) #146043/18 yrs +/Openings 5 Rouge Woods CC June ",
       "reason": "Not Drop In"
-    },
-    {
-      "title": "Pickleball - Women's Adult (Drop In) #143150/18 yrs +/Openings 20 Elgin West CC June 16, 2026 Tue No",
-      "reason": "Women's"
     }
   ],
   "notifiedSlots": [
