@@ -1,28 +1,14 @@
 {
-  "checkedAt": "2026-06-14T04:12:48.341Z",
+  "checkedAt": "2026-06-14T12:59:58.442Z",
   "available": true,
-  "total": 20,
+  "total": 18,
   "qualified": [
     {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #146240/18 yrs +/Openings 2 Rouge Woods CC June 14, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
-      "openings": 2,
-      "date": "June 14, 2026",
-      "time": "10:30 AM - 11:55 AM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #146240/18 yrs +/Openings 2 Rouge Woods CC June 14, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #146251/18 yrs +/Openings 1 Rouge Woods CC June 14, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
+      "title": "Pickleball - Adult (Drop In) #146240/18 yrs +/Openings 1 Rouge Woods CC June 14, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
       "openings": 1,
       "date": "June 14, 2026",
-      "time": null,
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #146251/18 yrs +/Openings 1 Rouge Woods CC June 14, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #143621/18 yrs +/Openings 2 Langstaff CC June 14, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
-      "openings": 2,
-      "date": "June 14, 2026",
-      "time": "3:30 PM - 5:00 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #143621/18 yrs +/Openings 2 Langstaff CC June 14, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
+      "time": "10:30 AM - 11:55 AM",
+      "raw": "Pickleball - Adult (Drop In) #146240/18 yrs +/Openings 1 Rouge Woods CC June 14, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #143098/18 yrs +/Openings 12 Elgin West CC June 15, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
@@ -60,11 +46,11 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147464/18 yrs +/Openings 22 Oak Ridges CC June 17, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147596/18 yrs +/Openings 17 Elgin West CC June 18, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
-      "openings": 17,
+      "title": "Starting soon Pickleball - Adult (Drop In) #147596/18 yrs +/Openings 16 Elgin West CC June 18, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
+      "openings": 16,
       "date": "June 18, 2026",
       "time": "9:00 AM - 10:30 AM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147596/18 yrs +/Openings 17 Elgin West CC June 18, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #147596/18 yrs +/Openings 16 Elgin West CC June 18, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147509/18 yrs +/Openings 12 Oak Ridges CC June 18, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
@@ -125,7 +111,7 @@
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Adult Beginner/Beginner Plus(Drop In) #146142/18 yrs +/Openings 5 Rouge W",
+      "title": "4 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #146142/18 yrs +/Openings 4 Rouge",
       "reason": "Not Drop In"
     },
     {
