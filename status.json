@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-06-14T19:28:22.349Z",
+  "checkedAt": "2026-06-14T21:14:27.171Z",
   "available": true,
-  "total": 15,
+  "total": 16,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #143098/18 yrs +/Openings 12 Elgin West CC June 15, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
@@ -93,6 +93,13 @@
       "date": "June 19, 2026",
       "time": "5:30 PM - 7:00 PM",
       "raw": "Pickleball - Adult (Drop In) #143111/18 yrs +/Openings 6 Elgin West CC June 19, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #143611/18 yrs +/Openings 1 Langstaff CC June 20, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "June 20, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "Pickleball - Adult (Drop In) #143611/18 yrs +/Openings 1 Langstaff CC June 20, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -153,7 +160,8 @@
     "June 19, 2026|12:15 PM - 1:45 PM",
     "June 14, 2026|3:30 PM - 5:00 PM",
     "June 14, 2026|10:30 AM - 11:55 AM",
-    "June 14, 2026|null"
+    "June 14, 2026|null",
+    "June 20, 2026|7:00 PM - 8:30 PM"
   ],
   "error": null
 }
