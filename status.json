@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-06-22T15:52:56.951Z",
+  "checkedAt": "2026-06-22T19:29:55.535Z",
   "available": true,
   "total": 20,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 12 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
-      "openings": 12,
-      "date": "June 22, 2026",
-      "time": "2:45 PM - 4:15 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 12 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
-    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147434/18 yrs +/Openings 22 Oak Ridges CC June 23, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 22,
@@ -109,11 +102,11 @@
       "raw": "Pickleball - Adult (Drop In) #152052/18 yrs +/Openings 22 Oak Ridges CC July 4, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 12 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
-      "openings": 12,
+      "title": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 11 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
+      "openings": 11,
       "date": "July 4, 2026",
       "time": "5:15 PM - 6:45 PM",
-      "raw": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 12 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 11 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152083/18 yrs +/Openings 10 Oak Ridges CC July 4, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
@@ -134,6 +127,10 @@
     },
     {
       "title": "Pickleball (Drop In) #146776/18 yrs +/Openings 14 Elgin West CC July 4, 2026 Sat 4:30 PM - 6:00 PM $",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #146784/18 yrs +/Openings 11 Elgin West CC July 5, 2026 Sun 2:30 PM - 4:00 PM $",
       "reason": "Not Drop In"
     }
   ],
