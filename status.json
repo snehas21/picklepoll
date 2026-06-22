@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-06-22T04:22:17.139Z",
+  "checkedAt": "2026-06-22T15:52:56.951Z",
   "available": true,
-  "total": 15,
+  "total": 20,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 14 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
-      "openings": 14,
+      "title": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 12 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
+      "openings": 12,
       "date": "June 22, 2026",
       "time": "2:45 PM - 4:15 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 14 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #143402/18 yrs +/Openings 12 Elgin West CC June 22, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147434/18 yrs +/Openings 22 Oak Ridges CC June 23, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -46,11 +46,11 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147510/18 yrs +/Openings 12 Oak Ridges CC June 25, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #143391/18 yrs +/Openings 12 Elgin West CC June 25, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
-      "openings": 12,
+      "title": "Starting soon Pickleball - Adult (Drop In) #143391/18 yrs +/Openings 13 Elgin West CC June 25, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
+      "openings": 13,
       "date": "June 25, 2026",
       "time": "3:00 PM - 4:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #143391/18 yrs +/Openings 12 Elgin West CC June 25, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #143391/18 yrs +/Openings 13 Elgin West CC June 25, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) - Beginner #147444/18 yrs +/Openings 22 Oak Ridges CC June 26, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -81,18 +81,46 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #143394/18 yrs +/Openings 20 Elgin West CC June 26, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #147475/18 yrs +/Openings 5 Oak Ridges CC June 26, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 5,
+      "title": "Starting soon Pickleball - Adult (Drop In) #147475/18 yrs +/Openings 4 Oak Ridges CC June 26, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 4,
       "date": "June 26, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #147475/18 yrs +/Openings 5 Oak Ridges CC June 26, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #147475/18 yrs +/Openings 4 Oak Ridges CC June 26, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #143403/18 yrs +/Openings 1 Elgin West CC June 26, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143403/18 yrs +/Openings 1 Elgin West CC June 26, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
       "openings": 1,
       "date": "June 26, 2026",
       "time": "5:30 PM - 7:00 PM",
-      "raw": "Pickleball - Adult (Drop In) #143403/18 yrs +/Openings 1 Elgin West CC June 26, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143403/18 yrs +/Openings 1 Elgin West CC June 26, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #147068/18 yrs +/Openings 10 Oak Ridges CC June 27, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 10,
+      "date": "June 27, 2026",
+      "time": "3:15 PM - 4:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #147068/18 yrs +/Openings 10 Oak Ridges CC June 27, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #152052/18 yrs +/Openings 22 Oak Ridges CC July 4, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 22,
+      "date": "July 4, 2026",
+      "time": "3:15 PM - 4:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #152052/18 yrs +/Openings 22 Oak Ridges CC July 4, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 12 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
+      "openings": 12,
+      "date": "July 4, 2026",
+      "time": "5:15 PM - 6:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #152078/18 yrs +/Openings 12 Oak Ridges CC July 4, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #152083/18 yrs +/Openings 10 Oak Ridges CC July 4, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 10,
+      "date": "July 4, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "Pickleball - Adult (Drop In) #152083/18 yrs +/Openings 10 Oak Ridges CC July 4, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -103,6 +131,10 @@
     {
       "title": "Starting soon Pickleball - Adult (Drop In) - Women Only #147454/18 yrs +/Openings 12 Oak Ridges CC J",
       "reason": "Women's"
+    },
+    {
+      "title": "Pickleball (Drop In) #146776/18 yrs +/Openings 14 Elgin West CC July 4, 2026 Sat 4:30 PM - 6:00 PM $",
+      "reason": "Not Drop In"
     }
   ],
   "notifiedSlots": [
@@ -159,7 +191,11 @@
     "June 26, 2026|12:15 PM - 1:45 PM",
     "June 21, 2026|10:30 AM - 11:55 AM",
     "June 21, 2026|null",
-    "June 21, 2026|3:30 PM - 5:00 PM"
+    "June 21, 2026|3:30 PM - 5:00 PM",
+    "June 27, 2026|3:15 PM - 4:45 PM",
+    "July 4, 2026|3:15 PM - 4:45 PM",
+    "July 4, 2026|5:15 PM - 6:45 PM",
+    "July 4, 2026|7:00 PM - 8:30 PM"
   ],
   "error": null
 }
