@@ -1,14 +1,21 @@
 {
-  "checkedAt": "2026-06-28T00:04:00.598Z",
+  "checkedAt": "2026-06-28T05:18:02.517Z",
   "available": true,
-  "total": 8,
+  "total": 10,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #146242/18 yrs +/Openings 4 Rouge Woods CC June 28, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
-      "openings": 4,
+      "title": "3 space(s) left Pickleball - Adult (Drop In) #146242/18 yrs +/Openings 3 Rouge Woods CC June 28, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
+      "openings": 3,
       "date": "June 28, 2026",
       "time": "10:30 AM - 11:55 AM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #146242/18 yrs +/Openings 4 Rouge Woods CC June 28, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
+      "raw": "3 space(s) left Pickleball - Adult (Drop In) #146242/18 yrs +/Openings 3 Rouge Woods CC June 28, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #143623/18 yrs +/Openings 1 Langstaff CC June 28, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "June 28, 2026",
+      "time": "3:30 PM - 5:00 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #143623/18 yrs +/Openings 1 Langstaff CC June 28, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152052/18 yrs +/Openings 21 Oak Ridges CC July 4, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -34,6 +41,10 @@
   ],
   "skipped": [
     {
+      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #146144/18 yrs +/Openings 2 Rouge",
+      "reason": "Not Drop In"
+    },
+    {
       "title": "Pickleball (Drop In) #146776/18 yrs +/Openings 7 Elgin West CC July 4, 2026 Sat 4:30 PM - 6:00 PM $5",
       "reason": "Not Drop In"
     },
@@ -46,7 +57,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #144171/18 yrs +/Openings 7 Richmond Green Pop Up Picklebal",
+      "title": "Pickleball Strategy Intermediate Lessons #144171/18 yrs +/Openings 6 Richmond Green Pop Up Picklebal",
       "reason": "Lessons"
     }
   ],
@@ -112,7 +123,8 @@
     "July 5, 2026|null",
     "June 27, 2026|7:00 PM - 8:30 PM",
     "June 28, 2026|null",
-    "June 28, 2026|10:30 AM - 11:55 AM"
+    "June 28, 2026|10:30 AM - 11:55 AM",
+    "June 28, 2026|3:30 PM - 5:00 PM"
   ],
   "error": null
 }
