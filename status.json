@@ -1,8 +1,15 @@
 {
-  "checkedAt": "2026-07-08T23:08:53.669Z",
+  "checkedAt": "2026-07-09T03:23:29.420Z",
   "available": true,
-  "total": 17,
+  "total": 20,
   "qualified": [
+    {
+      "title": "Pickleball - Adult (Drop In) #149129/18 yrs +/Openings 1 Rouge Woods CC July 9, 2026 Thu 7:30 PM - 9:00 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "July 9, 2026",
+      "time": "7:30 PM - 9:00 PM",
+      "raw": "Pickleball - Adult (Drop In) #149129/18 yrs +/Openings 1 Rouge Woods CC July 9, 2026 Thu 7:30 PM - 9:00 PM $5.75 Enroll Now"
+    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152053/18 yrs +/Openings 6 Oak Ridges CC July 11, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
       "openings": 6,
@@ -51,6 +58,20 @@
       "date": "July 18, 2026",
       "time": "7:00 PM - 8:30 PM",
       "raw": "Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 6 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #151491/18 yrs +/Openings 1 Langstaff CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "July 18, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151491/18 yrs +/Openings 1 Langstaff CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 1 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "July 19, 2026",
+      "time": "3:30 PM - 5:00 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 1 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -79,7 +100,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146778/18 yrs +/Openings 9 Elgin West CC July 18, 2026 Sat 4:30 PM - 6:00 PM $",
+      "title": "Pickleball (Drop In) #146778/18 yrs +/Openings 10 Elgin West CC July 18, 2026 Sat 4:30 PM - 6:00 PM ",
       "reason": "Not Drop In"
     },
     {
@@ -87,11 +108,11 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146786/18 yrs +/Openings 13 Elgin West CC July 19, 2026 Sun 2:30 PM - 4:00 PM ",
+      "title": "Pickleball (Drop In) #146786/18 yrs +/Openings 14 Elgin West CC July 19, 2026 Sun 2:30 PM - 4:00 PM ",
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146770/18 yrs +/Openings 17 Elgin West CC July 19, 2026 Sun 4:15 PM - 5:45 PM ",
+      "title": "Pickleball (Drop In) #146770/18 yrs +/Openings 18 Elgin West CC July 19, 2026 Sun 4:15 PM - 5:45 PM ",
       "reason": "Not Drop In"
     }
   ],
@@ -168,7 +189,8 @@
     "July 12, 2026|10:30 AM - 11:55 AM",
     "July 18, 2026|3:15 PM - 4:45 PM",
     "July 18, 2026|5:15 PM - 6:45 PM",
-    "July 18, 2026|7:00 PM - 8:30 PM"
+    "July 18, 2026|7:00 PM - 8:30 PM",
+    "July 19, 2026|3:30 PM - 5:00 PM"
   ],
   "error": null
 }
