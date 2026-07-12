@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-07-11T23:55:58.161Z",
+  "checkedAt": "2026-07-12T02:55:58.374Z",
   "available": true,
-  "total": 14,
+  "total": 15,
   "qualified": [
     {
       "title": "3 space(s) left Pickleball - Adult (Drop In) #149138/18 yrs +/Openings 3 Rouge Woods CC July 12, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
@@ -11,11 +11,11 @@
       "raw": "3 space(s) left Pickleball - Adult (Drop In) #149138/18 yrs +/Openings 3 Rouge Woods CC July 12, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
     },
     {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #149147/18 yrs +/Openings 3 Rouge Woods CC July 12, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
-      "openings": 3,
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #151503/18 yrs +/Openings 1 Langstaff CC July 12, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 1,
       "date": "July 12, 2026",
-      "time": null,
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #149147/18 yrs +/Openings 3 Rouge Woods CC July 12, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
+      "time": "3:30 PM - 5:00 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151503/18 yrs +/Openings 1 Langstaff CC July 12, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152054/18 yrs +/Openings 23 Oak Ridges CC July 18, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -45,11 +45,15 @@
       "reason": "Lessons"
     },
     {
+      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #149156/18 yrs +/Openings 1 Rouge",
+      "reason": "Not Drop In"
+    },
+    {
       "title": "Starting soon Pickleball (Drop In) #152532/18 yrs +/Openings 17 Elgin West CC July 12, 2026 Sun 12:3",
       "reason": "Not Drop In"
     },
     {
-      "title": "Starting soon Pickleball (Drop In) #146785/18 yrs +/Openings 13 Elgin West CC July 12, 2026 Sun 2:30",
+      "title": "Starting soon Pickleball (Drop In) #146785/18 yrs +/Openings 16 Elgin West CC July 12, 2026 Sun 2:30",
       "reason": "Not Drop In"
     },
     {
@@ -57,7 +61,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Starting soon Pickleball - Adult Beginner/Beginner Plus(Drop In) #148926/16 yrs +/Openings 6 Rouge W",
+      "title": "Starting soon Pickleball - Adult Beginner/Beginner Plus(Drop In) #148926/16 yrs +/Openings 7 Rouge W",
       "reason": "Not Drop In"
     },
     {
@@ -151,7 +155,8 @@
     "July 18, 2026|3:15 PM - 4:45 PM",
     "July 18, 2026|5:15 PM - 6:45 PM",
     "July 18, 2026|7:00 PM - 8:30 PM",
-    "July 19, 2026|3:30 PM - 5:00 PM"
+    "July 19, 2026|3:30 PM - 5:00 PM",
+    "July 12, 2026|3:30 PM - 5:00 PM"
   ],
   "error": null
 }
