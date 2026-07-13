@@ -1,21 +1,14 @@
 {
-  "checkedAt": "2026-07-13T02:55:57.811Z",
+  "checkedAt": "2026-07-13T13:26:35.775Z",
   "available": true,
-  "total": 11,
+  "total": 19,
   "qualified": [
     {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #148934/18 yrs +/Openings 3 Rouge Woods CC July 13, 2026 Mon 7:30 PM - 9:00 PM $5.75 Enroll Now",
-      "openings": 3,
-      "date": "July 13, 2026",
-      "time": "7:30 PM - 9:00 PM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #148934/18 yrs +/Openings 3 Rouge Woods CC July 13, 2026 Mon 7:30 PM - 9:00 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) #152054/18 yrs +/Openings 21 Oak Ridges CC July 18, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 21,
+      "title": "Pickleball - Adult (Drop In) #152054/18 yrs +/Openings 20 Oak Ridges CC July 18, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 20,
       "date": "July 18, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Pickleball - Adult (Drop In) #152054/18 yrs +/Openings 21 Oak Ridges CC July 18, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #152054/18 yrs +/Openings 20 Oak Ridges CC July 18, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152080/18 yrs +/Openings 7 Oak Ridges CC July 18, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -32,11 +25,39 @@
       "raw": "Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 6 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 1 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "July 19, 2026",
+      "title": "Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 23 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 23,
+      "date": "July 25, 2026",
+      "time": "3:15 PM - 4:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 23 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #152081/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
+      "openings": 12,
+      "date": "July 25, 2026",
+      "time": "5:15 PM - 6:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #152081/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #152086/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 12,
+      "date": "July 25, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "Pickleball - Adult (Drop In) #152086/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #151492/18 yrs +/Openings 2 Langstaff CC July 25, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "July 25, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #151492/18 yrs +/Openings 2 Langstaff CC July 25, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #151505/18 yrs +/Openings 6 Langstaff CC July 26, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 6,
+      "date": "July 26, 2026",
       "time": "3:30 PM - 5:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 1 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #151505/18 yrs +/Openings 6 Langstaff CC July 26, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -45,15 +66,11 @@
       "reason": "Lessons"
     },
     {
-      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #148926/16 yrs +/Openings 2 Rouge",
+      "title": "1 space(s) left Pickleball (Drop In) #146778/18 yrs +/Openings 1 Elgin West CC July 18, 2026 Sat 4:3",
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146778/18 yrs +/Openings 5 Elgin West CC July 18, 2026 Sat 4:30 PM - 6:00 PM $",
-      "reason": "Not Drop In"
-    },
-    {
-      "title": "Pickleball (Drop In) #152533/18 yrs +/Openings 17 Elgin West CC July 19, 2026 Sun 12:30 PM - 2:00 PM",
+      "title": "Pickleball (Drop In) #152533/18 yrs +/Openings 15 Elgin West CC July 19, 2026 Sun 12:30 PM - 2:00 PM",
       "reason": "Not Drop In"
     },
     {
@@ -61,7 +78,31 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146770/18 yrs +/Openings 13 Elgin West CC July 19, 2026 Sun 4:15 PM - 5:45 PM ",
+      "title": "Pickleball (Drop In) #146770/18 yrs +/Openings 12 Elgin West CC July 19, 2026 Sun 4:15 PM - 5:45 PM ",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148927/16 yrs +/Openings 14 Rouge Woods CC July ",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #146779/18 yrs +/Openings 15 Elgin West CC July 25, 2026 Sat 4:30 PM - 6:00 PM ",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #149158/18 yrs +/Openings 2 Rouge",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #152534/18 yrs +/Openings 14 Elgin West CC July 26, 2026 Sun 12:30 PM - 2:00 PM",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #146787/18 yrs +/Openings 13 Elgin West CC July 26, 2026 Sun 2:30 PM - 4:00 PM ",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #146771/18 yrs +/Openings 16 Elgin West CC July 26, 2026 Sun 4:15 PM - 5:45 PM ",
       "reason": "Not Drop In"
     }
   ],
@@ -140,7 +181,11 @@
     "July 18, 2026|5:15 PM - 6:45 PM",
     "July 18, 2026|7:00 PM - 8:30 PM",
     "July 19, 2026|3:30 PM - 5:00 PM",
-    "July 12, 2026|3:30 PM - 5:00 PM"
+    "July 12, 2026|3:30 PM - 5:00 PM",
+    "July 25, 2026|3:15 PM - 4:45 PM",
+    "July 25, 2026|5:15 PM - 6:45 PM",
+    "July 25, 2026|7:00 PM - 8:30 PM",
+    "July 26, 2026|3:30 PM - 5:00 PM"
   ],
   "error": null
 }
