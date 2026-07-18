@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-18T15:58:24.349Z",
+  "checkedAt": "2026-07-18T17:05:44.595Z",
   "available": true,
   "total": 16,
   "qualified": [
@@ -18,25 +18,18 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #152080/18 yrs +/Openings 7 Oak Ridges CC July 18, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 5 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 5,
-      "date": "July 18, 2026",
-      "time": "7:00 PM - 8:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 5 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #151491/18 yrs +/Openings 3 Langstaff CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "title": "Starting soon Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 3 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
       "openings": 3,
       "date": "July 18, 2026",
       "time": "7:00 PM - 8:30 PM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #151491/18 yrs +/Openings 3 Langstaff CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #152085/18 yrs +/Openings 3 Oak Ridges CC July 18, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "3 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 3 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
-      "openings": 3,
+      "title": "Starting soon Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 4 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 4,
       "date": "July 19, 2026",
       "time": "3:30 PM - 5:00 PM",
-      "raw": "3 space(s) left Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 3 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #151504/18 yrs +/Openings 4 Langstaff CC July 19, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 23 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -58,11 +51,18 @@
       "date": "July 25, 2026",
       "time": "7:00 PM - 8:30 PM",
       "raw": "Pickleball - Adult (Drop In) #152086/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #149149/18 yrs +/Openings 1 Rouge Woods CC July 26, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "July 26, 2026",
+      "time": null,
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #149149/18 yrs +/Openings 1 Rouge Woods CC July 26, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball (Drop In) #152533/18 yrs +/Openings 10 Elgin West CC July 19, 2026 Sun 12:3",
+      "title": "Starting soon Pickleball (Drop In) #152533/18 yrs +/Openings 12 Elgin West CC July 19, 2026 Sun 12:3",
       "reason": "Not Drop In"
     },
     {
@@ -176,7 +176,8 @@
     "July 26, 2026|3:30 PM - 5:00 PM",
     "July 19, 2026|10:30 AM - 11:55 AM",
     "July 26, 2026|10:30 AM - 11:55 AM",
-    "July 19, 2026|null"
+    "July 19, 2026|null",
+    "July 26, 2026|null"
   ],
   "error": null
 }
