@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-07-21T12:24:08.045Z",
+  "checkedAt": "2026-07-21T15:04:11.110Z",
   "available": true,
-  "total": 18,
+  "total": 16,
   "qualified": [
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #149131/18 yrs +/Openings 1 Rouge Woods CC July 23, 2026 Thu 7:30 PM - 9:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "July 23, 2026",
-      "time": "7:30 PM - 9:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #149131/18 yrs +/Openings 1 Rouge Woods CC July 23, 2026 Thu 7:30 PM - 9:00 PM $5.75 Enroll Now"
-    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 19 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
       "openings": 19,
@@ -51,13 +44,6 @@
       "date": "August 1, 2026",
       "time": "7:00 PM - 8:30 PM",
       "raw": "Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 12 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #151506/18 yrs +/Openings 1 Langstaff CC August 2, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "August 2, 2026",
-      "time": "3:30 PM - 5:00 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151506/18 yrs +/Openings 1 Langstaff CC August 2, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -70,7 +56,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146787/18 yrs +/Openings 4 Elgin West CC July 26, 2026 Sun 2:30 PM - 4:00 PM $",
+      "title": "Pickleball (Drop In) #146787/18 yrs +/Openings 5 Elgin West CC July 26, 2026 Sun 2:30 PM - 4:00 PM $",
       "reason": "Not Drop In"
     },
     {
@@ -78,7 +64,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148928/16 yrs +/Openings 12 Rouge Woods CC July ",
+      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148928/16 yrs +/Openings 10 Rouge Woods CC July ",
       "reason": "Not Drop In"
     },
     {
