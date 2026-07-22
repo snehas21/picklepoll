@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-21T23:59:56.465Z",
+  "checkedAt": "2026-07-22T03:34:08.131Z",
   "available": true,
-  "total": 17,
+  "total": 16,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 19 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 19,
+      "title": "Starting soon Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 18 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 18,
       "date": "July 25, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 19 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #152055/18 yrs +/Openings 18 Oak Ridges CC July 25, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152081/18 yrs +/Openings 12 Oak Ridges CC July 25, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -39,20 +39,16 @@
       "raw": "Pickleball - Adult (Drop In) #152082/18 yrs +/Openings 12 Oak Ridges CC August 1, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 12 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 12,
+      "title": "Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 11 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 11,
       "date": "August 1, 2026",
       "time": "7:00 PM - 8:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 12 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 11 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #148927/16 yrs +/Openings 1 Rouge",
-      "reason": "Not Drop In"
-    },
-    {
-      "title": "1 space(s) left Pickleball (Drop In) #146779/18 yrs +/Openings 1 Elgin West CC July 25, 2026 Sat 4:3",
+      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #148927/16 yrs +/Openings 2 Rouge",
       "reason": "Not Drop In"
     },
     {
@@ -88,7 +84,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #145049/18 yrs +/Openings 6 Richmond Green Pop Up Picklebal",
+      "title": "Pickleball Strategy Intermediate Lessons #145049/18 yrs +/Openings 7 Richmond Green Pop Up Picklebal",
       "reason": "Lessons"
     }
   ],
