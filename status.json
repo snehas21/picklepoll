@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-07-24T12:19:41.856Z",
+  "checkedAt": "2026-07-24T14:56:08.252Z",
   "available": true,
   "total": 16,
   "qualified": [
@@ -48,10 +48,6 @@
   ],
   "skipped": [
     {
-      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #149158/18 yrs +/Openings 1 Rouge",
-      "reason": "Not Drop In"
-    },
-    {
       "title": "Starting soon Pickleball (Drop In) #152534/18 yrs +/Openings 10 Elgin West CC July 26, 2026 Sun 12:3",
       "reason": "Not Drop In"
     },
@@ -60,7 +56,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Starting soon Pickleball (Drop In) #146771/18 yrs +/Openings 5 Elgin West CC July 26, 2026 Sun 4:15 ",
+      "title": "4 space(s) left Pickleball (Drop In) #146771/18 yrs +/Openings 4 Elgin West CC July 26, 2026 Sun 4:1",
       "reason": "Not Drop In"
     },
     {
@@ -68,7 +64,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146780/18 yrs +/Openings 11 Elgin West CC August 1, 2026 Sat 4:30 PM - 6:00 PM",
+      "title": "Pickleball (Drop In) #146780/18 yrs +/Openings 10 Elgin West CC August 1, 2026 Sat 4:30 PM - 6:00 PM",
       "reason": "Not Drop In"
     },
     {
@@ -76,7 +72,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #146788/18 yrs +/Openings 14 Elgin West CC August 2, 2026 Sun 2:30 PM - 4:00 PM",
+      "title": "Pickleball (Drop In) #146788/18 yrs +/Openings 13 Elgin West CC August 2, 2026 Sun 2:30 PM - 4:00 PM",
       "reason": "Not Drop In"
     },
     {
@@ -86,6 +82,10 @@
     {
       "title": "Pickleball Strategy Intermediate Lessons #145049/18 yrs +/Openings 5 Richmond Green Pop Up Picklebal",
       "reason": "Lessons"
+    },
+    {
+      "title": "Pickleball (Drop In) #146781/18 yrs +/Openings 20 Elgin West CC August 8, 2026 Sat 4:30 PM - 6:00 PM",
+      "reason": "Not Drop In"
     }
   ],
   "notifiedSlots": [
