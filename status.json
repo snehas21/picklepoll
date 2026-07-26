@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-07-26T18:02:10.408Z",
+  "checkedAt": "2026-07-26T20:10:01.552Z",
   "available": true,
-  "total": 11,
+  "total": 12,
   "qualified": [
     {
       "title": "Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 21 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -27,7 +27,7 @@
   ],
   "skipped": [
     {
-      "title": "3 space(s) left Pickleball (Drop In) #146771/18 yrs +/Openings 3 Elgin West CC July 26, 2026 Sun 4:1",
+      "title": "1 space(s) left Pickleball (Drop In) #146771/18 yrs +/Openings 1 Elgin West CC July 26, 2026 Sun 4:1",
       "reason": "Not Drop In"
     },
     {
@@ -56,6 +56,10 @@
     },
     {
       "title": "Pickleball (Drop In) #146781/18 yrs +/Openings 19 Elgin West CC August 8, 2026 Sat 4:30 PM - 6:00 PM",
+      "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball (Drop In) #152536/18 yrs +/Openings 20 Elgin West CC August 9, 2026 Sun 12:30 PM - 2:00 P",
       "reason": "Not Drop In"
     }
   ],
