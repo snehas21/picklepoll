@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-07-28T04:10:39.799Z",
+  "checkedAt": "2026-07-28T12:54:40.997Z",
   "available": true,
-  "total": 14,
+  "total": 16,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 21 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -32,6 +32,13 @@
       "raw": "Pickleball - Adult (Drop In) #153560/18 yrs +/Openings 23 Oak Ridges CC August 8, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
+      "title": "Pickleball - Adult (Drop In) #153559/18 yrs +/Openings 12 Oak Ridges CC August 8, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
+      "openings": 12,
+      "date": "August 8, 2026",
+      "time": "5:15 PM - 6:45 PM",
+      "raw": "Pickleball - Adult (Drop In) #153559/18 yrs +/Openings 12 Oak Ridges CC August 8, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
+    },
+    {
       "title": "Pickleball - Adult (Drop In) #153558/18 yrs +/Openings 12 Oak Ridges CC August 8, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
       "openings": 12,
       "date": "August 8, 2026",
@@ -40,6 +47,10 @@
     }
   ],
   "skipped": [
+    {
+      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus(Drop In) #148928/16 yrs +/Openings 1 Rouge",
+      "reason": "Not Drop In"
+    },
     {
       "title": "Pickleball (Drop In) #152535/18 yrs +/Openings 18 Elgin West CC August 2, 2026 Sun 12:30 PM - 2:00 P",
       "reason": "Not Drop In"
@@ -57,7 +68,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148929/16 yrs +/Openings 11 Rouge Woods CC Augus",
+      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148929/16 yrs +/Openings 12 Rouge Woods CC Augus",
       "reason": "Not Drop In"
     },
     {
@@ -168,7 +179,8 @@
     "August 2, 2026|10:30 AM - 11:55 AM",
     "August 8, 2026|3:15 PM - 4:45 PM",
     "August 8, 2026|7:00 PM - 8:30 PM",
-    "August 9, 2026|3:30 PM - 5:00 PM"
+    "August 9, 2026|3:30 PM - 5:00 PM",
+    "August 8, 2026|5:15 PM - 6:45 PM"
   ],
   "error": null
 }
