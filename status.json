@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-07-30T23:08:53.530Z",
+  "checkedAt": "2026-07-31T02:53:00.930Z",
   "available": true,
-  "total": 15,
+  "total": 17,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 17 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -23,6 +23,13 @@
       "date": "August 1, 2026",
       "time": "7:00 PM - 8:30 PM",
       "raw": "Starting soon Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 11 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #151494/18 yrs +/Openings 1 Langstaff CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "August 1, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #151494/18 yrs +/Openings 1 Langstaff CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #153560/18 yrs +/Openings 21 Oak Ridges CC August 8, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -55,6 +62,10 @@
   ],
   "skipped": [
     {
+      "title": "1 space(s) left Pickleball (Drop In) #146780/18 yrs +/Openings 1 Elgin West CC August 1, 2026 Sat 4:",
+      "reason": "Not Drop In"
+    },
+    {
       "title": "Starting soon Pickleball (Drop In) #152535/18 yrs +/Openings 19 Elgin West CC August 2, 2026 Sun 12:",
       "reason": "Not Drop In"
     },
@@ -63,7 +74,7 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Starting soon Pickleball (Drop In) #146772/18 yrs +/Openings 11 Elgin West CC August 2, 2026 Sun 4:1",
+      "title": "Starting soon Pickleball (Drop In) #146772/18 yrs +/Openings 12 Elgin West CC August 2, 2026 Sun 4:1",
       "reason": "Not Drop In"
     },
     {
@@ -71,7 +82,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball (Drop In) #146781/18 yrs +/Openings 8 Elgin West CC August 8, 2026 Sat 4:30 PM - 6:00 PM ",
+      "title": "Pickleball (Drop In) #146781/18 yrs +/Openings 9 Elgin West CC August 8, 2026 Sat 4:30 PM - 6:00 PM ",
       "reason": "Not Drop In"
     },
     {
