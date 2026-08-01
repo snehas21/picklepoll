@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-07-31T23:02:36.932Z",
+  "checkedAt": "2026-08-01T02:51:56.462Z",
   "available": true,
-  "total": 16,
+  "total": 17,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 17 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 17,
+      "title": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 16 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 16,
       "date": "August 1, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 17 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #152056/18 yrs +/Openings 16 Oak Ridges CC August 1, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #152082/18 yrs +/Openings 10 Oak Ridges CC August 1, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -18,11 +18,11 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #152082/18 yrs +/Openings 10 Oak Ridges CC August 1, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 10 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 10,
+      "title": "Starting soon Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 11 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 11,
       "date": "August 1, 2026",
       "time": "7:00 PM - 8:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 10 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #152087/18 yrs +/Openings 11 Oak Ridges CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
       "title": "1 space(s) left Pickleball - Adult (Drop In) #151494/18 yrs +/Openings 1 Langstaff CC August 1, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
@@ -62,11 +62,15 @@
   ],
   "skipped": [
     {
+      "title": "Pickleball (Drop In) #146780/18 yrs +/Openings 1 Elgin West CC August 1, 2026 Sat 4:30 PM - 6:00 PM ",
+      "reason": "Not Drop In"
+    },
+    {
       "title": "Starting soon Pickleball (Drop In) #152535/18 yrs +/Openings 18 Elgin West CC August 2, 2026 Sun 12:",
       "reason": "Not Drop In"
     },
     {
-      "title": "Starting soon Pickleball (Drop In) #146788/18 yrs +/Openings 9 Elgin West CC August 2, 2026 Sun 2:30",
+      "title": "Starting soon Pickleball (Drop In) #146788/18 yrs +/Openings 10 Elgin West CC August 2, 2026 Sun 2:3",
       "reason": "Not Drop In"
     },
     {
