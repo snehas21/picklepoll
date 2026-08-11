@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-10T23:35:30.484Z",
+  "checkedAt": "2026-08-11T01:47:46.766Z",
   "available": true,
-  "total": 17,
+  "total": 19,
   "qualified": [
     {
       "title": "Pickleball - Adult (Drop In) #152057/18 yrs +/Openings 22 Oak Ridges CC August 15, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -23,6 +23,20 @@
       "date": "August 15, 2026",
       "time": "7:00 PM - 8:30 PM",
       "raw": "Pickleball - Adult (Drop In) #149209/18 yrs +/Openings 12 Oak Ridges CC August 15, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #149143/18 yrs +/Openings 1 Rouge Woods CC August 16, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "August 16, 2026",
+      "time": "10:30 AM - 11:55 AM",
+      "raw": "Pickleball - Adult (Drop In) #149143/18 yrs +/Openings 1 Rouge Woods CC August 16, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "Pickleball - Adult (Drop In) #149152/18 yrs +/Openings 1 Rouge Woods CC August 16, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "August 16, 2026",
+      "time": null,
+      "raw": "Pickleball - Adult (Drop In) #149152/18 yrs +/Openings 1 Rouge Woods CC August 16, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #153593/18 yrs +/Openings 24 Oak Ridges CC August 22, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
@@ -59,7 +73,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball (Drop In) #146782/18 yrs +/Openings 7 Elgin West CC August 15, 2026 Sat 4:30 PM - 6:00 PM",
+      "title": "Pickleball (Drop In) #146782/18 yrs +/Openings 6 Elgin West CC August 15, 2026 Sat 4:30 PM - 6:00 PM",
       "reason": "Not Drop In"
     },
     {
@@ -197,7 +211,9 @@
     "August 22, 2026|3:15 PM - 4:45 PM",
     "August 22, 2026|5:15 PM - 6:45 PM",
     "August 22, 2026|7:00 PM - 8:30 PM",
-    "August 23, 2026|3:30 PM - 5:00 PM"
+    "August 23, 2026|3:30 PM - 5:00 PM",
+    "August 16, 2026|10:30 AM - 11:55 AM",
+    "August 16, 2026|null"
   ],
   "error": null
 }
