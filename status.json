@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-22T11:20:52.722Z",
+  "checkedAt": "2026-08-22T12:39:49.496Z",
   "available": true,
   "total": 11,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153593/18 yrs +/Openings 14 Oak Ridges CC August 22, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 14,
+      "title": "Starting soon Pickleball - Adult (Drop In) #153593/18 yrs +/Openings 13 Oak Ridges CC August 22, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 13,
       "date": "August 22, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153593/18 yrs +/Openings 14 Oak Ridges CC August 22, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #153593/18 yrs +/Openings 13 Oak Ridges CC August 22, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #153591/18 yrs +/Openings 8 Oak Ridges CC August 22, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -55,7 +55,7 @@
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball (Drop In) #152538/18 yrs +/Openings 11 Elgin West CC August 23, 2026 Sun 12",
+      "title": "Starting soon Pickleball (Drop In) #152538/18 yrs +/Openings 10 Elgin West CC August 23, 2026 Sun 12",
       "reason": "Not Drop In"
     },
     {
@@ -63,11 +63,11 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball (Drop In) #154269/18 yrs +/Openings 13 Elgin West CC August 29, 2026 Sat 4:30 PM - 6:00 P",
+      "title": "Pickleball (Drop In) #154269/18 yrs +/Openings 12 Elgin West CC August 29, 2026 Sat 4:30 PM - 6:00 P",
       "reason": "Not Drop In"
     },
     {
-      "title": "1 space(s) left Pickleball (Drop In) #152539/18 yrs +/Openings 1 Elgin West CC August 30, 2026 Sun 1",
+      "title": "3 space(s) left Pickleball (Drop In) #152539/18 yrs +/Openings 3 Elgin West CC August 30, 2026 Sun 1",
       "reason": "Not Drop In"
     }
   ],
