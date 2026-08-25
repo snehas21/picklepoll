@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-25T11:28:00.222Z",
+  "checkedAt": "2026-08-25T12:48:14.572Z",
   "available": true,
-  "total": 17,
+  "total": 15,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 14 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 14,
+      "title": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 15 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 15,
       "date": "August 29, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 14 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 15 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #153592/18 yrs +/Openings 9 Oak Ridges CC August 29, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -25,18 +25,18 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #153590/18 yrs +/Openings 8 Oak Ridges CC August 29, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 18 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 18,
+      "title": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 17 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 17,
       "date": "September 4, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 18 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 17 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 11 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 11,
+      "title": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 9,
       "date": "September 4, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 11 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
@@ -45,11 +45,7 @@
       "reason": "Women's"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #150833/18 yrs +/Openings 9 Rouge Woods CC September 9, 202",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Lessons #150831/18 yrs +/Openings 4 Rouge Woods CC September 14, 2026 to October 5, 2026 ",
+      "title": "Pickleball Strategy Intermediate Lessons #150833/18 yrs +/Openings 8 Rouge Woods CC September 9, 202",
       "reason": "Lessons"
     },
     {
@@ -57,27 +53,23 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Lessons - Beginner #151071/18 yrs +/Openings 4 Oak Ridges CC October 13, 2026 to November",
+      "title": "Pickleball Lessons - Intermediate #151072/18 yrs +/Openings 6 Oak Ridges CC October 13, 2026 to Nove",
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Lessons - Intermediate #151072/18 yrs +/Openings 7 Oak Ridges CC October 13, 2026 to Nove",
+      "title": "Pickleball Strategy Intermediate Lessons #150835/18 yrs +/Openings 5 Rouge Woods CC October 19, 2026",
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #150835/18 yrs +/Openings 6 Rouge Woods CC October 19, 2026",
+      "title": "Pickleball Strategy Intermediate Lessons #150869/18 yrs +/Openings 10 Rouge Woods CC November 4, 202",
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #150869/18 yrs +/Openings 12 Rouge Woods CC November 4, 202",
+      "title": "Pickleball Lessons - Beginner #151070/18 yrs +/Openings 4 Oak Ridges CC November 10, 2026 to Decembe",
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Lessons - Beginner #151070/18 yrs +/Openings 6 Oak Ridges CC November 10, 2026 to Decembe",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Lessons - Intermediate #151073/18 yrs +/Openings 11 Oak Ridges CC November 10, 2026 to De",
+      "title": "Pickleball Lessons - Intermediate #151073/18 yrs +/Openings 10 Oak Ridges CC November 10, 2026 to De",
       "reason": "Lessons"
     },
     {
@@ -85,7 +77,7 @@
       "reason": "Lessons"
     },
     {
-      "title": "Pickleball Strategy Intermediate Lessons #150867/18 yrs +/Openings 7 Rouge Woods CC November 16, 202",
+      "title": "Pickleball Strategy Intermediate Lessons #150867/18 yrs +/Openings 6 Rouge Woods CC November 16, 202",
       "reason": "Lessons"
     }
   ],
