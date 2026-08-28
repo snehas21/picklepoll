@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-27T20:55:31.804Z",
+  "checkedAt": "2026-08-28T05:08:37.229Z",
   "available": true,
-  "total": 14,
+  "total": 6,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 14 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 14,
+      "title": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 15 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
+      "openings": 15,
       "date": "August 29, 2026",
       "time": "3:15 PM - 4:45 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 14 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #153594/18 yrs +/Openings 15 Oak Ridges CC August 29, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #153592/18 yrs +/Openings 7 Oak Ridges CC August 29, 2026 Sat 5:15 PM - 6:45 PM $5.75 Enroll Now",
@@ -43,38 +43,6 @@
     {
       "title": "Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 10 Oak Ridges CC September 4, 20",
       "reason": "Women's"
-    },
-    {
-      "title": "1 space(s) left Pickleball Strategy Intermediate Lessons #150833/18 yrs +/Openings 1 Rouge Woods CC ",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Strategy Intermediate Lessons #150868/18 yrs +/Openings 11 Rouge Woods CC October 7, 2026",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Lessons - Intermediate #151072/18 yrs +/Openings 7 Oak Ridges CC October 13, 2026 to Nove",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Strategy Intermediate Lessons #150869/18 yrs +/Openings 8 Rouge Woods CC November 4, 2026",
-      "reason": "Lessons"
-    },
-    {
-      "title": "1 space(s) left Pickleball Lessons - Beginner #151070/18 yrs +/Openings 1 Oak Ridges CC November 10,",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Lessons - Intermediate #151073/18 yrs +/Openings 8 Oak Ridges CC November 10, 2026 to Dec",
-      "reason": "Lessons"
-    },
-    {
-      "title": "Pickleball Lessons #150866/18 yrs +/Openings 3 Rouge Woods CC November 16, 2026 to December 7, 2026 ",
-      "reason": "Lessons"
-    },
-    {
-      "title": "1 space(s) left Pickleball Strategy Intermediate Lessons #150867/18 yrs +/Openings 1 Rouge Woods CC ",
-      "reason": "Lessons"
     }
   ],
   "notifiedSlots": [
