@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-08-29T22:26:59.976Z",
+  "checkedAt": "2026-08-30T01:08:08.388Z",
   "available": true,
-  "total": 5,
+  "total": 4,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153590/18 yrs +/Openings 8 Oak Ridges CC August 29, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
-      "openings": 8,
-      "date": "August 29, 2026",
-      "time": "7:00 PM - 8:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153590/18 yrs +/Openings 8 Oak Ridges CC August 29, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
-    },
     {
       "title": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 15 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 15,
@@ -18,16 +11,16 @@
       "raw": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 15 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 8 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 8,
+      "title": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 9,
       "date": "September 4, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 8 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #149163/18 yrs +/Openings 1 Rouge Woods CC August",
+      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148933/16 yrs +/Openings 2 Rouge Woods CC Septem",
       "reason": "Not Drop In"
     },
     {
