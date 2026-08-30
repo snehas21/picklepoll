@@ -1,8 +1,22 @@
 {
-  "checkedAt": "2026-08-30T01:08:08.388Z",
+  "checkedAt": "2026-08-30T07:59:41.092Z",
   "available": true,
-  "total": 4,
+  "total": 5,
   "qualified": [
+    {
+      "title": "Pickleball - Adult (Drop In) #149145/18 yrs +/Openings 2 Rouge Woods CC August 30, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "August 30, 2026",
+      "time": "10:30 AM - 11:55 AM",
+      "raw": "Pickleball - Adult (Drop In) #149145/18 yrs +/Openings 2 Rouge Woods CC August 30, 2026 Sun 10:30 AM - 11:55 AM $5.75 Enroll Now"
+    },
+    {
+      "title": "3 space(s) left Pickleball - Adult (Drop In) #151512/18 yrs +/Openings 3 Langstaff CC August 30, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now",
+      "openings": 3,
+      "date": "August 30, 2026",
+      "time": "3:30 PM - 5:00 PM",
+      "raw": "3 space(s) left Pickleball - Adult (Drop In) #151512/18 yrs +/Openings 3 Langstaff CC August 30, 2026 Sun 3:30 PM - 5:00 PM $5.75 Enroll Now"
+    },
     {
       "title": "Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 15 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 15,
@@ -20,11 +34,7 @@
   ],
   "skipped": [
     {
-      "title": "Pickleball - Adult Beginner/Beginner Plus(Drop In) #148933/16 yrs +/Openings 2 Rouge Woods CC Septem",
-      "reason": "Not Drop In"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 9 Oak Ridges CC September 4, 202",
+      "title": "Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 8 Oak Ridges CC September 4, 202",
       "reason": "Women's"
     }
   ],
@@ -140,7 +150,8 @@
     "September 5, 2026|3:15 PM - 4:45 PM",
     "August 23, 2026|10:30 AM - 11:55 AM",
     "August 23, 2026|null",
-    "September 4, 2026|8:30 AM - 10:00 AM"
+    "September 4, 2026|8:30 AM - 10:00 AM",
+    "August 30, 2026|10:30 AM - 11:55 AM"
   ],
   "error": null
 }
