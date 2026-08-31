@@ -1,31 +1,28 @@
 {
-  "checkedAt": "2026-08-31T08:12:30.784Z",
+  "checkedAt": "2026-08-31T17:56:14.137Z",
   "available": true,
   "total": 4,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 16 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 16,
+      "title": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 15 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 15,
       "date": "September 4, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 16 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 3 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 3,
-      "date": "September 4, 2026",
-      "time": "4:00 PM - 5:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153957/18 yrs +/Openings 3 Oak Ridges CC September 4, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 15 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 7 Oak Ridges CC Se",
+      "title": "Starting soon Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 4 Oak Ridges CC Se",
       "reason": "Women's"
     },
     {
-      "title": "1 space(s) left Pickleball Strategy Intermediate Lessons #150833/18 yrs +/Openings 1 Rouge Woods CC ",
-      "reason": "Lessons"
+      "title": "Pickleball - Women's Adult (Drop In) #151608/18 yrs +/Openings 5 Langstaff CC September 12, 2026 Sat",
+      "reason": "Women's"
+    },
+    {
+      "title": "Pickleball - Women's Adult (Drop In) #151609/18 yrs +/Openings 3 Langstaff CC September 13, 2026 Sun",
+      "reason": "Women's"
     }
   ],
   "notifiedSlots": [
