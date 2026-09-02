@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-02T21:37:30.614Z",
+  "checkedAt": "2026-09-02T23:53:42.424Z",
   "available": true,
-  "total": 1,
+  "total": 2,
   "qualified": [
     {
       "title": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -11,7 +11,12 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) - Beginner #153956/18 yrs +/Openings 9 Oak Ridges CC September 4, 2026 Fri 8:30 AM - 10:00 AM $5.75 Enroll Now"
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "title": "Pickleball - Adult (Drop In) - Women Only #153958/18 yrs +/Openings 1 Oak Ridges CC September 4, 202",
+      "reason": "Women's"
+    }
+  ],
   "notifiedSlots": [
     "May 1, 2026|8:30 AM - 10:00 AM",
     "April 26, 2026|10:30 AM - 11:55 AM",
