@@ -1,8 +1,15 @@
 {
-  "checkedAt": "2026-09-15T22:44:29.252Z",
+  "checkedAt": "2026-09-16T01:08:56.207Z",
   "available": true,
   "total": 20,
   "qualified": [
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #153490/18 yrs +/Openings 1 Rouge Woods CC September 16, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "September 16, 2026",
+      "time": "11:00 AM - 12:30 PM",
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #153490/18 yrs +/Openings 1 Rouge Woods CC September 16, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
+    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #155057/18 yrs +/Openings 20 Oak Ridges CC September 16, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
       "openings": 20,
@@ -100,13 +107,6 @@
       "date": "September 24, 2026",
       "time": "9:00 AM - 10:30 AM",
       "raw": "Pickleball - Adult (Drop In) #152927/18 yrs +/Openings 17 Elgin West CC September 24, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
-    },
-    {
-      "title": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 12 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 12,
-      "date": "September 24, 2026",
-      "time": "11:00 AM - 12:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 12 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
