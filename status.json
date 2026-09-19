@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-19T17:49:02.477Z",
+  "checkedAt": "2026-09-19T20:10:10.853Z",
   "available": true,
-  "total": 20,
+  "total": 19,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #152893/18 yrs +/Openings 13 Elgin West CC September 21, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
-      "openings": 13,
+      "title": "Starting soon Pickleball - Adult (Drop In) #152893/18 yrs +/Openings 12 Elgin West CC September 21, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
+      "openings": 12,
       "date": "September 21, 2026",
       "time": "2:45 PM - 4:15 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #152893/18 yrs +/Openings 13 Elgin West CC September 21, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #152893/18 yrs +/Openings 12 Elgin West CC September 21, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #155044/18 yrs +/Openings 23 Oak Ridges CC September 22, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
@@ -32,11 +32,11 @@
       "raw": "1 space(s) left Pickleball - Adult (Drop In) #153491/18 yrs +/Openings 1 Rouge Woods CC September 23, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #155058/18 yrs +/Openings 23 Oak Ridges CC September 23, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
-      "openings": 23,
+      "title": "Starting soon Pickleball - Adult (Drop In) #155058/18 yrs +/Openings 21 Oak Ridges CC September 23, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
+      "openings": 21,
       "date": "September 23, 2026",
       "time": "1:00 PM - 2:30 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #155058/18 yrs +/Openings 23 Oak Ridges CC September 23, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #155058/18 yrs +/Openings 21 Oak Ridges CC September 23, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152927/18 yrs +/Openings 18 Elgin West CC September 24, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now",
@@ -46,11 +46,11 @@
       "raw": "Pickleball - Adult (Drop In) #152927/18 yrs +/Openings 18 Elgin West CC September 24, 2026 Thu 9:00 AM - 10:30 AM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 11 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 11,
+      "title": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 9 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "openings": 9,
       "date": "September 24, 2026",
       "time": "11:00 AM - 12:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 11 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #155128/18 yrs +/Openings 9 Oak Ridges CC September 24, 2026 Thu 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #152930/18 yrs +/Openings 12 Elgin West CC September 24, 2026 Thu 3:00 PM - 4:30 PM $5.75 Enroll Now",
@@ -81,11 +81,11 @@
       "raw": "Pickleball - Adult (Drop In) #152963/18 yrs +/Openings 17 Elgin West CC September 25, 2026 Fri 12:15 PM - 1:45 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #155094/18 yrs +/Openings 6 Oak Ridges CC September 25, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
-      "openings": 6,
+      "title": "Pickleball - Adult (Drop In) #155094/18 yrs +/Openings 4 Oak Ridges CC September 25, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now",
+      "openings": 4,
       "date": "September 25, 2026",
       "time": "4:00 PM - 5:30 PM",
-      "raw": "Pickleball - Adult (Drop In) #155094/18 yrs +/Openings 6 Oak Ridges CC September 25, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #155094/18 yrs +/Openings 4 Oak Ridges CC September 25, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Pickleball - Adult (Drop In) #155131/18 yrs +/Openings 10 Oak Ridges CC September 26, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
@@ -93,13 +93,16 @@
       "date": "September 26, 2026",
       "time": "1:30 PM - 3:00 PM",
       "raw": "Pickleball - Adult (Drop In) #155131/18 yrs +/Openings 10 Oak Ridges CC September 26, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #154056/18 yrs +/Openings 1 Rouge Woods CC September 27, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now",
+      "openings": 1,
+      "date": "September 27, 2026",
+      "time": null,
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #154056/18 yrs +/Openings 1 Rouge Woods CC September 27, 2026 Sun Noon - 1:25 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
-    {
-      "title": "2 space(s) left Pickleball - Women's Adult (Drop In) #154691/18 yrs +/Openings 2 Langstaff CC Septem",
-      "reason": "Women's"
-    },
     {
       "title": "Starting soon Pickleball - Adult Beginner/Beginner Plus (Drop In) #154113/18 yrs +/Openings 9 Rouge ",
       "reason": "Not Drop In"
@@ -113,15 +116,11 @@
       "reason": "Not Drop In"
     },
     {
-      "title": "Pickleball - Women's Adult (Drop In) #155098/18 yrs +/Openings 10 Oak Ridges CC September 25, 2026 F",
+      "title": "Pickleball - Women's Adult (Drop In) #155098/18 yrs +/Openings 8 Oak Ridges CC September 25, 2026 Fr",
       "reason": "Women's"
     },
     {
       "title": "2 space(s) left Pickleball - Women's Adult (Drop In) #154692/18 yrs +/Openings 2 Langstaff CC Septem",
-      "reason": "Women's"
-    },
-    {
-      "title": "Pickleball - Women's Adult (Drop In) #154919/18 yrs +/Openings 7 Langstaff CC September 27, 2026 Sun",
       "reason": "Women's"
     }
   ],
@@ -250,7 +249,8 @@
     "September 19, 2026|1:30 PM - 3:00 PM",
     "September 19, 2026|7:00 PM - 8:30 PM",
     "September 25, 2026|12:15 PM - 1:45 PM",
-    "September 26, 2026|1:30 PM - 3:00 PM"
+    "September 26, 2026|1:30 PM - 3:00 PM",
+    "September 27, 2026|null"
   ],
   "error": null
 }
