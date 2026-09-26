@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-09-26T14:54:24.163Z",
+  "checkedAt": "2026-09-26T18:24:15.706Z",
   "available": true,
   "total": 20,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #155131/18 yrs +/Openings 3 Oak Ridges CC September 26, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 3,
-      "date": "September 26, 2026",
-      "time": "1:30 PM - 3:00 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #155131/18 yrs +/Openings 3 Oak Ridges CC September 26, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
-    },
     {
       "title": "2 space(s) left Pickleball - Adult (Drop In) #154728/18 yrs +/Openings 2 Langstaff CC September 26, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
       "openings": 2,
@@ -53,11 +46,11 @@
       "raw": "Starting soon Pickleball - Adult (Drop In) #147832/18 yrs +/Openings 11 Elgin West CC September 29, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now"
     },
     {
-      "title": "2 space(s) left Pickleball - Adult (Drop In) #153492/18 yrs +/Openings 2 Rouge Woods CC September 30, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now",
-      "openings": 2,
+      "title": "1 space(s) left Pickleball - Adult (Drop In) #153492/18 yrs +/Openings 1 Rouge Woods CC September 30, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now",
+      "openings": 1,
       "date": "September 30, 2026",
       "time": "11:00 AM - 12:30 PM",
-      "raw": "2 space(s) left Pickleball - Adult (Drop In) #153492/18 yrs +/Openings 2 Rouge Woods CC September 30, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
+      "raw": "1 space(s) left Pickleball - Adult (Drop In) #153492/18 yrs +/Openings 1 Rouge Woods CC September 30, 2026 Wed 11:00 AM - 12:30 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #155059/18 yrs +/Openings 21 Oak Ridges CC September 30, 2026 Wed 1:00 PM - 2:30 PM $5.75 Enroll Now",
@@ -132,6 +125,10 @@
     {
       "title": "Pickleball - Adult Beginner (Drop In) #155091/18 yrs +/Openings 23 Oak Ridges CC October 2, 2026 Fri",
       "reason": "Not Drop In"
+    },
+    {
+      "title": "Pickleball - Women's Adult (Drop In) #155099/18 yrs +/Openings 12 Oak Ridges CC October 2, 2026 Fri ",
+      "reason": "Women's"
     }
   ],
   "notifiedSlots": [
