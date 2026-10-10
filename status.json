@@ -1,15 +1,8 @@
 {
-  "checkedAt": "2026-10-10T16:07:47.325Z",
+  "checkedAt": "2026-10-10T20:30:26.118Z",
   "available": true,
-  "total": 20,
+  "total": 19,
   "qualified": [
-    {
-      "title": "Starting soon Pickleball - Adult (Drop In) #153979/18 yrs +/Openings 4 Oak Ridges CC October 10, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 4,
-      "date": "October 10, 2026",
-      "time": "1:30 PM - 3:00 PM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #153979/18 yrs +/Openings 4 Oak Ridges CC October 10, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
-    },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #155692/18 yrs +/Openings 23 Oak Ridges CC October 13, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
       "openings": 23,
@@ -104,16 +97,16 @@
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Women's Adult (Drop In) #154694/18 yrs +/Openings 9 Langstaff CC October ",
-      "reason": "Women's"
-    },
-    {
       "title": "Starting soon Pickleball - Women's Adult (Drop In) #154921/18 yrs +/Openings 6 Langstaff CC October ",
       "reason": "Women's"
     },
     {
-      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #154116/18 yrs +/Openings 2 Roug",
+      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #154116/18 yrs +/Openings 1 Roug",
       "reason": "Not Drop In"
+    },
+    {
+      "title": "1 space(s) left Pickleball Lessons - Intermediate #151072/18 yrs +/Openings 1 Oak Ridges CC October ",
+      "reason": "Lessons"
     },
     {
       "title": "Starting soon Pickleball - Women's Adult (Drop In) #147917/18 yrs +/Openings 19 Elgin West CC Octobe",
