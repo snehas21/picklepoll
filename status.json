@@ -1,14 +1,21 @@
 {
-  "checkedAt": "2026-10-09T22:22:20.052Z",
+  "checkedAt": "2026-10-10T02:09:10.427Z",
   "available": true,
   "total": 20,
   "qualified": [
     {
-      "title": "Starting soon Pickleball - Adult (Drop In) #155692/18 yrs +/Openings 24 Oak Ridges CC October 13, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
-      "openings": 24,
+      "title": "2 space(s) left Pickleball - Adult (Drop In) #154730/18 yrs +/Openings 2 Langstaff CC October 10, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now",
+      "openings": 2,
+      "date": "October 10, 2026",
+      "time": "7:00 PM - 8:30 PM",
+      "raw": "2 space(s) left Pickleball - Adult (Drop In) #154730/18 yrs +/Openings 2 Langstaff CC October 10, 2026 Sat 7:00 PM - 8:30 PM $5.75 Enroll Now"
+    },
+    {
+      "title": "Starting soon Pickleball - Adult (Drop In) #155692/18 yrs +/Openings 23 Oak Ridges CC October 13, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now",
+      "openings": 23,
       "date": "October 13, 2026",
       "time": "8:30 AM - 10:00 AM",
-      "raw": "Starting soon Pickleball - Adult (Drop In) #155692/18 yrs +/Openings 24 Oak Ridges CC October 13, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
+      "raw": "Starting soon Pickleball - Adult (Drop In) #155692/18 yrs +/Openings 23 Oak Ridges CC October 13, 2026 Tue 8:30 AM - 10:00 AM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147834/18 yrs +/Openings 14 Elgin West CC October 13, 2026 Tue 1:30 PM - 3:00 PM $5.75 Enroll Now",
@@ -81,23 +88,23 @@
       "raw": "Pickleball - Adult (Drop In) #155712/18 yrs +/Openings 8 Oak Ridges CC October 16, 2026 Fri 4:00 PM - 5:30 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #147870/18 yrs +/Openings 16 Elgin West CC October 16, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
-      "openings": 16,
+      "title": "Pickleball - Adult (Drop In) #147870/18 yrs +/Openings 15 Elgin West CC October 16, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now",
+      "openings": 15,
       "date": "October 16, 2026",
       "time": "5:30 PM - 7:00 PM",
-      "raw": "Pickleball - Adult (Drop In) #147870/18 yrs +/Openings 16 Elgin West CC October 16, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #147870/18 yrs +/Openings 15 Elgin West CC October 16, 2026 Fri 5:30 PM - 7:00 PM $5.75 Enroll Now"
     },
     {
-      "title": "Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 8 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
-      "openings": 8,
+      "title": "Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 7 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
+      "openings": 7,
       "date": "October 17, 2026",
       "time": "1:30 PM - 3:00 PM",
-      "raw": "Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 8 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
+      "raw": "Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 7 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
     }
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Women's Adult (Drop In) #154694/18 yrs +/Openings 8 Langstaff CC October ",
+      "title": "Starting soon Pickleball - Women's Adult (Drop In) #154694/18 yrs +/Openings 9 Langstaff CC October ",
       "reason": "Women's"
     },
     {
@@ -105,7 +112,7 @@
       "reason": "Women's"
     },
     {
-      "title": "1 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #154116/18 yrs +/Openings 1 Roug",
+      "title": "2 space(s) left Pickleball - Adult Beginner/Beginner Plus (Drop In) #154116/18 yrs +/Openings 2 Roug",
       "reason": "Not Drop In"
     },
     {
@@ -118,10 +125,6 @@
     },
     {
       "title": "Pickleball - Women's Adult (Drop In) #155748/18 yrs +/Openings 11 Oak Ridges CC October 16, 2026 Fri",
-      "reason": "Women's"
-    },
-    {
-      "title": "Pickleball - Women's Adult (Drop In) #154695/18 yrs +/Openings 8 Langstaff CC October 17, 2026 Sat 5",
       "reason": "Women's"
     }
   ],
