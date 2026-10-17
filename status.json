@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T06:39:51.658Z",
+  "checkedAt": "2026-10-17T14:04:53.423Z",
   "available": true,
-  "total": 14,
+  "total": 13,
   "qualified": [
     {
       "title": "1 space(s) left Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 1 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now",
@@ -9,13 +9,6 @@
       "date": "October 17, 2026",
       "time": "1:30 PM - 3:00 PM",
       "raw": "1 space(s) left Pickleball - Adult (Drop In) #155732/18 yrs +/Openings 1 Oak Ridges CC October 17, 2026 Sat 1:30 PM - 3:00 PM $5.75 Enroll Now"
-    },
-    {
-      "title": "1 space(s) left Pickleball - Adult (Drop In) #147885/18 yrs +/Openings 1 Elgin West CC October 17, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now",
-      "openings": 1,
-      "date": "October 17, 2026",
-      "time": "3:15 PM - 4:45 PM",
-      "raw": "1 space(s) left Pickleball - Adult (Drop In) #147885/18 yrs +/Openings 1 Elgin West CC October 17, 2026 Sat 3:15 PM - 4:45 PM $5.75 Enroll Now"
     },
     {
       "title": "Starting soon Pickleball - Adult (Drop In) #147862/18 yrs +/Openings 14 Elgin West CC October 19, 2026 Mon 2:45 PM - 4:15 PM $5.75 Enroll Now",
@@ -90,7 +83,7 @@
   ],
   "skipped": [
     {
-      "title": "Starting soon Pickleball - Women's Adult (Drop In) #154922/18 yrs +/Openings 6 Langstaff CC October ",
+      "title": "Starting soon Pickleball - Women's Adult (Drop In) #154922/18 yrs +/Openings 7 Langstaff CC October ",
       "reason": "Women's"
     },
     {
